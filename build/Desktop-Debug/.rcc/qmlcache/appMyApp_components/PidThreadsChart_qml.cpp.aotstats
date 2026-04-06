@@ -1,0 +1,207 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "pids",
+                            "line": 6,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "threads",
+                            "line": 7,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "names",
+                            "line": 8,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "onThreadsChanged",
+                            "line": 170,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "onPaint",
+                            "line": 22,
+                            "message": "Cannot access value for name threads"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onPositionChanged",
+                            "line": 79,
+                            "message": "Cannot access value for name threads"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "onExited",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 76,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 106,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "usableWidth",
+                            "line": 113,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "usableHeight",
+                            "line": 114,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "stepX",
+                            "line": 115,
+                            "message": "Cannot load property length from (component in /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml)::threads with type QVariant."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "pointX",
+                            "line": 118,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "maxThreads",
+                            "line": 123,
+                            "message": "Cannot load property length from (component in /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml)::threads with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "normalized",
+                            "line": 128,
+                            "message": "Cannot generate efficient code for LoadElement with non-list base type (component in /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml)::threads with type QVariant (adjusted to QJSValue, stored as QJSValue)"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "pointY",
+                            "line": 133,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 137,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 138,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 140,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 148,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 162,
+                            "message": "Cannot generate efficient code for LoadElement with non-list base type (component in /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml)::names with type QVariant (adjusted to QJSValue, stored as QJSValue)"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 157,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 171,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml"
+                }
+            ],
+            "moduleId": "MyApp(appMyApp)"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/MyApp">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/MyApp</file>
+
+  </qresource>
+</RCC>

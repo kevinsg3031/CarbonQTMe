@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "ProcessModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "refresh",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setFilter",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ProcessModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ProcessModel.h",
+    "outputRevision": 68
+}

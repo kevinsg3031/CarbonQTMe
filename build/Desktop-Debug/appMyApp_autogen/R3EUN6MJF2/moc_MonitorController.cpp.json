@@ -1,0 +1,98 @@
+{
+    "classes": [
+        {
+            "className": "MonitorController",
+            "lineNumber": 5,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "updateStats",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 9,
+                    "name": "cpuUsage",
+                    "notify": "dataChanged",
+                    "read": "cpuUsage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 10,
+                    "name": "coreCount",
+                    "notify": "dataChanged",
+                    "read": "coreCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 11,
+                    "name": "memoryUsed",
+                    "notify": "dataChanged",
+                    "read": "memoryUsed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 12,
+                    "name": "ramUsage",
+                    "notify": "dataChanged",
+                    "read": "ramUsage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "MonitorController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "dataChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MonitorController.h",
+    "outputRevision": 69
+}

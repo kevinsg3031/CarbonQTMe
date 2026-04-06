@@ -1,0 +1,14 @@
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_automoc_json_extraction.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_qmltyperegistration.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/all_qmltyperegistrations.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_other_files.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_qmllint.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_qmllint_json.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/all_qmllint.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/all_qmllint_json.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_tooling.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/edit_cache.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/rebuild_cache.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_autogen_timestamp_deps.dir
+/home/kshama/CarbonQt/build/Kit-Debug/CMakeFiles/appMyApp_autogen.dir

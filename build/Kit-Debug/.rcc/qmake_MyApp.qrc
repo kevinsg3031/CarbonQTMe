@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyApp">
+    <file alias="qmldir">/home/kshama/CarbonQt/build/Kit-Debug/MyApp/qmldir</file>
+  </qresource>
+</RCC>
+

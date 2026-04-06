@@ -1,0 +1,315 @@
+[
+    {
+        "classes": [
+            {
+                "className": "EnergyController",
+                "lineNumber": 8,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 11,
+                        "name": "cpuWatts",
+                        "notify": "dataChanged",
+                        "read": "cpuWatts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 12,
+                        "name": "ramWatts",
+                        "notify": "dataChanged",
+                        "read": "ramWatts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 13,
+                        "name": "totalWatts",
+                        "notify": "dataChanged",
+                        "read": "totalWatts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 14,
+                        "name": "energyJoules",
+                        "notify": "dataChanged",
+                        "read": "energyJoules",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 15,
+                        "name": "co2",
+                        "notify": "dataChanged",
+                        "read": "co2",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "EnergyController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 27,
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "EnergyController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MonitorController",
+                "lineNumber": 5,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 22,
+                        "name": "updateStats",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 9,
+                        "name": "cpuUsage",
+                        "notify": "dataChanged",
+                        "read": "cpuUsage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 10,
+                        "name": "coreCount",
+                        "notify": "dataChanged",
+                        "read": "coreCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 11,
+                        "name": "memoryUsed",
+                        "notify": "dataChanged",
+                        "read": "memoryUsed",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 12,
+                        "name": "ramUsage",
+                        "notify": "dataChanged",
+                        "read": "ramUsage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "MonitorController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 25,
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "MonitorController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ProcessModel",
+                "lineNumber": 15,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 46,
+                        "name": "refresh",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "text",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 47,
+                        "name": "setFilter",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 18,
+                        "name": "pidValues",
+                        "notify": "modelChanged",
+                        "read": "pidValues",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 19,
+                        "name": "threadValues",
+                        "notify": "modelChanged",
+                        "read": "threadValues",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 20,
+                        "name": "processNames",
+                        "notify": "modelChanged",
+                        "read": "processNames",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 21,
+                        "name": "totalThreads",
+                        "notify": "modelChanged",
+                        "read": "totalThreads",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ProcessModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 50,
+                        "name": "modelChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ProcessModel.h",
+        "outputRevision": 69
+    }
+]

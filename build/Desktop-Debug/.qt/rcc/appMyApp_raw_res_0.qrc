@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyApp/">
+    <file alias="assets/icons/refresh.svg">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/assets/icons/refresh.svg</file>
+  </qresource>
+</RCC>
+

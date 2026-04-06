@@ -1,0 +1,3 @@
+/home/kshama/CarbonQt/build/Kit-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_EnergyController.cpp.json
+/home/kshama/CarbonQt/build/Kit-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_MonitorController.cpp.json
+/home/kshama/CarbonQt/build/Kit-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_ProcessModel.cpp.json

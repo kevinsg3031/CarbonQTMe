@@ -1,0 +1,16 @@
+-I
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug
+-I
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/MyApp
+-I
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/.qt/rcc/qmake_MyApp.qrc
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/.qt/rcc/appMyApp_raw_qml_0.qrc
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/.qt/rcc/appMyApp_raw_res_0.qrc
+--module
+MyApp

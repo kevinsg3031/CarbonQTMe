@@ -1,0 +1,24 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+
+Item {
+    Button {
+        id: dark_theme
+        width: 46
+        height: 46
+
+        leftPadding: 10
+        rightPadding: 10
+        topPadding: 10
+        bottomPadding: 10
+
+        icon.source: "qrc:/qt/qml/MyApp/assets/icons/dark_theme.svg"
+        icon.width: 18
+        icon.height: 18
+
+        background: Rectangle {
+            radius: width/2
+            color: refreshButton.hovered ? "white" : "transparent"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "MonitorController",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "cpuUsage",
+                    "notify": "dataChanged",
+                    "read": "cpuUsage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "coreCount",
+                    "notify": "dataChanged",
+                    "read": "coreCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "memoryUsed",
+                    "notify": "dataChanged",
+                    "read": "memoryUsed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "MonitorController",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "dataChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MonitorController.h",
+    "outputRevision": 68
+}

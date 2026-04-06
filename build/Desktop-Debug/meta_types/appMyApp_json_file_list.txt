@@ -1,0 +1,3 @@
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_EnergyController.cpp.json
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_MonitorController.cpp.json
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp_autogen/include/../R3EUN6MJF2/moc_ProcessModel.cpp.json

@@ -1,0 +1,9 @@
+/qt/qml/MyApp/Main.qml
+/qt/qml/MyApp/pages/Dashboard.qml
+/qt/qml/MyApp/pages/Processes.qml
+/qt/qml/MyApp/pages/EnergyEstimator.qml
+/qt/qml/MyApp/components/SidebarButton.qml
+/qt/qml/MyApp/components/StatCard.qml
+/qt/qml/MyApp/components/TableHeader.qml
+/qt/qml/MyApp/components/RingChart.qml
+/qt/qml/MyApp/components/Theme.qml

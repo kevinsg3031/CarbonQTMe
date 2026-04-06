@@ -1,0 +1,13 @@
+module MyApp
+typeinfo appMyApp.qmltypes
+prefer :/qt/qml/MyApp/
+Main 1.0 Main.qml
+Dashboard 1.0 pages/Dashboard.qml
+Processes 1.0 pages/Processes.qml
+EnergyEstimator 1.0 pages/EnergyEstimator.qml
+SidebarButton 1.0 components/SidebarButton.qml
+StatCard 1.0 components/StatCard.qml
+TableHeader 1.0 components/TableHeader.qml
+RingChart 1.0 components/RingChart.qml
+Theme 1.0 components/Theme.qml
+

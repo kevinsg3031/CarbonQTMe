@@ -1,0 +1,111 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "flags",
+                            "line": 12,
+                            "message": "Could not find property \"flags\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 30,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "active",
+                            "line": 43,
+                            "message": "Cannot access value for name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 43,
+                            "message": "Cannot find name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "active",
+                            "line": 44,
+                            "message": "Cannot access value for name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 44,
+                            "message": "Cannot find name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 0,
+                            "functionName": "active",
+                            "line": 45,
+                            "message": "Cannot access value for name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 98,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 45,
+                            "message": "Cannot find name currentIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceComponent",
+                            "line": 57,
+                            "message": "Cannot access value for name currentIndex"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 56,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/Main.qml"
+                }
+            ],
+            "moduleId": "MyApp(appMyApp)"
+        }
+    ]
+}
