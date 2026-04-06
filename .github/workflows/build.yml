@@ -23,28 +23,11 @@ jobs:
         if: matrix.os == 'windows-latest'
         uses: ilammy/msvc-dev-cmd@v1
 
-      - name: Install SQLite (Windows)
-        if: matrix.os == 'windows-latest'
-        run: |
-          vcpkg install sqlite3:x64-windows
-          echo "CMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake" >> $env:GITHUB_ENV
-        shell: pwsh
-
-      - name: Install SQLite (Ubuntu)
-        if: matrix.os == 'ubuntu-latest'
-        run: sudo apt-get install -y libsqlite3-dev
-
-      - name: Install SQLite (macOS)
-        if: matrix.os == 'macos-latest'
-        run: brew install sqlite3
-
       - name: Configure
         shell: bash
         run: |
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-            cmake -B build -S . -G "Visual Studio 17 2022" \
-              -DCMAKE_BUILD_TYPE=Release \
-              -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+            cmake -B build -S . -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Release
           else
             cmake -B build -S . -DCMAKE_BUILD_TYPE=Release
           fi
