@@ -10,6 +10,9 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 
+add_library(sqlite3 STATIC third_party/sqlite3/sqlite3.c)
+target_include_directories(sqlite3 PUBLIC third_party/sqlite3)
+
 add_executable(appMyApp
     main.cpp
 
@@ -28,6 +31,7 @@ target_include_directories(appMyApp PRIVATE
     backend/include
     backend/src
     qtbridge
+    third_party/sqlite3
 )
 
 add_executable(carbonqt
@@ -68,6 +72,7 @@ target_link_libraries(appMyApp
 target_include_directories(carbonqt PRIVATE
     backend/include
     backend/src
+    third_party/sqlite3
 )
 
 target_link_libraries(carbonqt
