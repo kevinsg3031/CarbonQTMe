@@ -21,12 +21,18 @@ jobs:
         uses: jurplel/install-qt-action@v3
         with:
           version: '6.5.0'
-
+          host: windows
+          target: desktop
+          arch: win64_msvc2019_64
+        
       - name: Configure
         run: cmake -B build -S .
 
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+
       - name: Build
-        run: cmake --build build
+        run: cmake --build build --config Release
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
