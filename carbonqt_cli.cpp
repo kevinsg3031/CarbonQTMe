@@ -5,7 +5,11 @@
 #include <thread>
 #include <chrono>
 #include <algorithm>
+#ifdef _WIN32
+#include <windows.h>
+#else
 #include <unistd.h>
+#endif
 
 #include "ProcessTracker.h"
 #include "SystemMonitor.h"
