@@ -14,27 +14,29 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
+      # 🟢 Install Qt (different per OS)
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
           version: '6.5.0'
-          host: windows
-          target: desktop
-          arch: win64_msvc2019_64
-        
+
+      # 🟢 Setup MSVC ONLY for Windows
+      - name: Setup MSVC
+        if: matrix.os == 'windows-latest'
+        uses: ilammy/msvc-dev-cmd@v1
+
+      # 🟢 Configure
       - name: Configure
         run: cmake -B build -S .
 
-      - name: Setup MSVC
-        uses: ilammy/msvc-dev-cmd@v1
-
+      # 🟢 Build
       - name: Build
         run: cmake --build build --config Release
 
-      - name: Upload artifact
+      # 🟢 Upload artifacts
+      - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: carbonqt-${{ matrix.os }}
