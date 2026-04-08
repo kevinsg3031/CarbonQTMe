@@ -3,6 +3,7 @@
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -358,7 +359,6 @@
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \

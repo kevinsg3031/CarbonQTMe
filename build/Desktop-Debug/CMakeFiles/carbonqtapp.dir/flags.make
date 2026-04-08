@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/aarch64-redhat-linux-g++
 CXX_DEFINES = -DQT_CORE_LIB
 
-CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/carbonqtapp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++
+CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/carbonqtapp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3 -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++
 
 CXX_FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
 

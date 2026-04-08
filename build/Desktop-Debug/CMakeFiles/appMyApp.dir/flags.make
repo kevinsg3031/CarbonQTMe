@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/aarch64-redhat-linux-g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
 
-CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL
+CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3 -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtOpenGL
 
 CXX_FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
 

@@ -11,6 +11,7 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/EnergyEstimator.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ProcessTracker.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/SystemMonitor.cpp \
+  CMakeFiles/3.31.11/CMakeCCompiler.cmake \
   CMakeFiles/3.31.11/CMakeCXXCompiler.cmake \
   CMakeFiles/3.31.11/CMakeSystem.cmake \
   appMyApp_autogen/moc_predefs.h \
@@ -21,6 +22,7 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/MonitorController.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -411,7 +413,6 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -966,100 +967,46 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
-  /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /usr/share/cmake/Modules/CMakeCInformation.cmake \
   /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /usr/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake \
+  /usr/share/cmake/Modules/CheckIncludeFile.cmake \
   /usr/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake/Modules/Compiler/GNU-C.cmake \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/FindOpenGL.cmake \
   /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake/Modules/FindPackageMessage.cmake \
   /usr/share/cmake/Modules/FindThreads.cmake \
   /usr/share/cmake/Modules/FindVulkan.cmake \
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
+  /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /usr/share/cmake/Modules/Linker/GNU-C.cmake \
   /usr/share/cmake/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Linker/GNU.cmake \
   /usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/share/cmake/Modules/Platform/Linker/GNU.cmake \
+  /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake \
+  /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
@@ -1077,6 +1024,7 @@ CMakeFiles/appMyApp.dir/appMyApp_autogen/mocs_compilation.cpp.o: appMyApp_autoge
   appMyApp_autogen/R3EUN6MJF2/moc_EnergyController.cpp \
   appMyApp_autogen/R3EUN6MJF2/moc_MonitorController.cpp \
   appMyApp_autogen/R3EUN6MJF2/moc_ProcessModel.cpp \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1484,7 +1432,6 @@ CMakeFiles/appMyApp.dir/appMyApp_autogen/mocs_compilation.cpp.o: appMyApp_autoge
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -2157,6 +2104,7 @@ CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.o: /home/kevinsg/D
 
 CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/DataLogger.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2350,7 +2298,6 @@ CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.o: /home/kevinsg/Downloads/Ca
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
@@ -2367,6 +2314,7 @@ CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.o: /home/kevinsg/Downloads/Ca
 CMakeFiles/appMyApp.dir/backend/src/EnergyEstimator.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/EnergyEstimator.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -2503,7 +2451,6 @@ CMakeFiles/appMyApp.dir/backend/src/EnergyEstimator.cpp.o: /home/kevinsg/Downloa
   /usr/include/gnu/stubs.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
@@ -2518,6 +2465,7 @@ CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o: /home/kevinsg/Download
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2721,7 +2669,6 @@ CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o: /home/kevinsg/Download
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
@@ -8442,6 +8389,7 @@ CMakeFiles/appMyApp.dir/main.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-ma
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/EnergyController.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/MonitorController.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -8905,7 +8853,6 @@ CMakeFiles/appMyApp.dir/main.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-ma
   /usr/include/qt6/QtQml/qtqmlglobal.h \
   /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -8930,6 +8877,7 @@ CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o: /home/kevinsg/Downloads
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/EnergyController.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -9306,7 +9254,6 @@ CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o: /home/kevinsg/Downloads
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -9724,6 +9671,7 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o: /home/kevinsg/Downloads/Car
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -10128,7 +10076,6 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o: /home/kevinsg/Downloads/Car
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -10159,7 +10106,6 @@ appMyApp: /lib/ld-linux-aarch64.so.1 \
   /usr/lib64/crtn.o \
   /usr/lib64/libc.so \
   /usr/lib64/libm.so \
-  /usr/lib64/libsqlite3.so \
   /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o \
   /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o \
   /usr/lib/gcc/aarch64-redhat-linux/15/libgcc.a \
@@ -10264,8 +10210,11 @@ appMyApp: /lib/ld-linux-aarch64.so.1 \
   CMakeFiles/appMyApp.dir/main.cpp.o \
   CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o \
   CMakeFiles/appMyApp.dir/qtbridge/MonitorController.cpp.o \
-  CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o
+  CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o \
+  libsqlite3.a
 
+
+libsqlite3.a:
 
 CMakeFiles/appMyApp.dir/qtbridge/MonitorController.cpp.o:
 
@@ -10389,8 +10338,6 @@ CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.o:
 
 /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o:
 
-/usr/lib64/libsqlite3.so:
-
 /usr/lib64/libc.so:
 
 /usr/lib64/crti.o:
@@ -10428,6 +10375,8 @@ CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.o:
 /usr/include/qt6/QtCore/qdeadlinetimer.h:
 
 /usr/include/qt6/QtCore/qcoreapplication_platform.h:
+
+/usr/include/qt6/QtCore/QUrl:
 
 /usr/include/qt6/QtCore/qiodevice.h:
 
@@ -10487,79 +10436,13 @@ CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.o:
 
 /usr/include/c++/15/aarch64-redhat-linux/bits/opt_random.h:
 
-.rcc/qmlcache/appMyApp_components/DoughnutStat_qml.cpp:
-
-/usr/include/qt6/QtQml/qqmlerror.h:
-
-/usr/include/c++/15/bits/fs_dir.h:
-
-/usr/include/qt6/QtQml/qqmlengine.h:
-
-/usr/include/qt6/QtQml/qqmldebug.h:
-
-/usr/include/qt6/QtQml/qqmlcontext.h:
-
-/usr/include/qt6/QtQml/qqmlcomponent.h:
-
-/usr/include/qt6/QtQml/qqmlabstracturlinterceptor.h:
-
-/usr/include/qt6/QtQml/qjsmanagedvalue.h:
-
-/usr/include/qt6/QtQml/qjsengine.h:
-
-.qt/rcc/qrc_appMyApp_raw_res_0.cpp:
-
-/usr/include/c++/15/bits/std_thread.h:
-
-/usr/include/dirent.h:
-
-/usr/include/bits/dirent_ext.h:
-
-/usr/include/bits/dirent.h:
-
-/usr/include/c++/15/iostream:
-
-/usr/include/c++/15/ostream:
-
-/usr/include/c++/15/ios:
-
-/usr/include/c++/15/bits/ostream.h:
-
-/usr/include/c++/15/bits/locale_facets.h:
-
-/usr/include/c++/15/bits/istream.tcc:
-
-/usr/include/c++/15/bits/codecvt.h:
-
-CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o:
-
-/usr/include/c++/15/bits/basic_ios.tcc:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/qt6/QtQmlIntegration/qqmlintegration.h:
-
-/usr/include/qt6/QtQml/qtqmlexports.h:
-
-/usr/include/qt6/QtQml/qtqml-config.h:
-
-/usr/include/qt6/QtQml/qqmlpropertyvaluesource.h:
-
-/usr/include/qt6/QtQml/qqmlparserstatus.h:
-
-/usr/include/qt6/QtQml/qqmlmoduleregistration.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake:
 
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake:
+
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15/iostream:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -10574,6 +10457,10 @@ CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o:
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
+
+CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o:
+
+/usr/include/c++/15/bits/alloc_traits.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -10635,6 +10522,8 @@ appMyApp_autogen/moc_predefs.h:
 
 /usr/include/c++/15/variant:
 
+/usr/include/c++/15/bits/basic_ios.h:
+
 /usr/lib64/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreMacros.cmake:
@@ -10648,8 +10537,6 @@ appMyApp_autogen/moc_predefs.h:
 /usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
@@ -10667,15 +10554,9 @@ appMyApp_autogen/moc_predefs.h:
 
 /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake:
 
+.rcc/qmlcache/appMyApp_components/DoughnutStat_qml.cpp:
+
 /usr/lib64/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
-
-/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
-
-.qt/rcc/qrc_qmake_MyApp.cpp:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
@@ -10709,11 +10590,9 @@ appMyApp_autogen/R3EUN6MJF2/moc_MonitorController.cpp:
 
 /usr/lib64/cmake/Qt6/FindWrapOpenGL.cmake:
 
-/usr/include/wctype.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
-
 /usr/lib64/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
+
+/usr/include/qt6/QtQml/qqmlcontext.h:
 
 /usr/include/c++/15/tr1/hypergeometric.tcc:
 
@@ -10733,15 +10612,13 @@ appMyApp_autogen/R3EUN6MJF2/moc_MonitorController.cpp:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake:
 
+/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/15/tr1/ell_integral.tcc:
-
-/usr/include/sqlite3.h:
-
-/usr/include/qt6/QtCore/qtclasshelpermacros.h:
 
 /usr/include/qt6/QtCore/qyieldcpu.h:
 
@@ -10767,11 +10644,15 @@ appMyApp_autogen/R3EUN6MJF2/moc_MonitorController.cpp:
 
 /usr/include/qt6/QtCore/qtversion.h:
 
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMakeLists.txt:
+
 /usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:
 
 /usr/include/c++/15/string_view:
 
 /usr/include/qt6/QtCore/qttypetraits.h:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginAdditionalTargetInfo.cmake:
 
 /usr/include/qt6/QtCore/qversiontagging.h:
 
@@ -10795,10 +10676,6 @@ CMakeFiles/appMyApp.dir/appmyapp_qmltyperegistrations.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15/bits/ostream.tcc:
-
-/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qtcoreglobal.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake:
@@ -10810,6 +10687,10 @@ CMakeFiles/appMyApp.dir/appmyapp_qmltyperegistrations.cpp.o:
 /usr/include/qt6/QtCore/qtconfigmacros.h:
 
 /usr/include/gnu/stubs.h:
+
+/usr/include/c++/15/bits/locale_facets.h:
+
+/usr/include/qt6/QtCore/qtclasshelpermacros.h:
 
 /usr/include/qt6/QtCore/qsystemdetection.h:
 
@@ -10849,6 +10730,8 @@ CMakeFiles/appMyApp.dir/appmyapp_qmltyperegistrations.cpp.o:
 
 /usr/include/qt6/QtCore/qobject.h:
 
+/usr/include/qt6/QtCore/qnumeric.h:
+
 /usr/include/qt6/QtCore/qmetatype.h:
 
 /usr/include/sched.h:
@@ -10882,12 +10765,6 @@ CMakeFiles/appMyApp.dir/appmyapp_qmltyperegistrations.cpp.o:
 /usr/include/limits.h:
 
 /usr/include/qt6/QtCore/qobjectdefs.h:
-
-/usr/include/qt6/QtGui/qtguiglobal.h:
-
-/usr/include/c++/15/sstream:
-
-/usr/include/c++/15/tr1/gamma.tcc:
 
 .rcc/qmlcache/appMyApp_components/Theme_qml.cpp:
 
@@ -10943,6 +10820,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/qt6/QtCore/qbytearraylist.h:
 
+/usr/include/c++/15/bits/version.h:
+
 /usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /usr/include/qt6/QtCore/qatomic_cxx11.h:
@@ -10963,10 +10842,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ContextSwitchAnalyzer.cpp:
 
-/usr/include/qt6/QtQml/qtqmlglobal.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6GuiTargets.cmake:
-
 /usr/include/qt6/QtCore/qalgorithms.h:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusMacros.cmake:
@@ -10981,8 +10856,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/qt6/QtCore/QVariant:
 
-/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
-
 /usr/include/qt6/QtCore/QModelIndex:
 
 /usr/include/qt6/QtCore/qtformat_impl.h:
@@ -10990,6 +10863,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6/QtInstallPaths.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15/bits/ostream.tcc:
 
 /usr/include/qt6/QtCore/QAbstractListModel:
 
@@ -11015,6 +10890,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/qt6/QtCore/q17memory.h:
 
+/usr/include/features-time64.h:
+
 /usr/include/stdint.h:
 
 /usr/include/qt6/QtCore/qstringbuilder.h:
@@ -11027,11 +10904,11 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
 /usr/include/ctype.h:
 
 /usr/share/cmake/Modules/CMakeGenericSystem.cmake:
+
+/usr/include/c++/15/vector:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -11047,13 +10924,19 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
+/usr/lib64/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets.cmake:
+
+/usr/include/c++/15/tr1/poly_hermite.tcc:
 
 /usr/include/c++/15/bits/algorithmfwd.h:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/main.cpp:
 
 /usr/include/c++/15/bits/basic_string.h:
+
+/usr/include/c++/15/ostream:
 
 /usr/include/qt6/QtCore/qanystringview.h:
 
@@ -11064,6 +10947,10 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h:
+
+CMakeFiles/3.31.11/CMakeCCompiler.cmake:
+
+/usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake:
 
 /usr/include/c++/15/bits/range_access.h:
 
@@ -11083,6 +10970,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/c++/15/bits/char_traits.h:
 
+/usr/include/qt6/QtCore/qtnoop.h:
+
 /usr/include/bits/long-double.h:
 
 /usr/lib64/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
@@ -11100,16 +10989,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/include/c++/15/bits/string_view.tcc:
 
 /usr/include/stdio.h:
-
-/usr/include/c++/15/bits/concept_check.h:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake:
-
-/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
 
 /usr/include/c++/15/bits/align.h:
 
@@ -11130,6 +11009,16 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6/Qt6ConfigVersion.cmake:
+
+/usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake:
+
+/usr/share/cmake/Modules/Linker/GNU-C.cmake:
+
+/usr/include/bits/dirent.h:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h:
 
@@ -11173,27 +11062,23 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
 
+/usr/include/c++/15/bits/fs_dir.h:
+
+/usr/include/qt6/QtQml/qqmlengine.h:
+
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
+
+/usr/include/qt6/QtQml/qqmlmoduleregistration.h:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
 
 /usr/include/bits/types/sigset_t.h:
-
-/usr/lib64/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets.cmake:
-
-/usr/include/c++/15/tr1/poly_hermite.tcc:
 
 /usr/include/qt6/QtCore/qiodevicebase.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/15/bits/specfun.h:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in:
 
@@ -11202,6 +11087,12 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
 /usr/include/c++/15/bits/charconv.h:
+
+/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/15/bits/specfun.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -11214,6 +11105,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6Network/Qt6NetworkTargets.cmake:
 
 /usr/include/bits/timex.h:
+
+/usr/include/qt6/QtCore/qstdlibdetection.h:
 
 /usr/include/bits/errno.h:
 
@@ -11239,13 +11132,43 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/c++/15/ext/concurrence.h:
 
+/usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
+
+/usr/include/bits/time64.h:
+
+/usr/include/c++/15/bits/requires_hosted.h:
+
+/usr/include/sys/single_threaded.h:
+
+/usr/include/qt6/QtCore/qconfig.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/qt6/QtCore/qshareddata_impl.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/qt6/QtCore/qsharedpointer.h:
+
+/usr/include/c++/15/bits/stl_map.h:
+
+/usr/include/c++/15/ratio:
+
+/usr/bin/cmake:
+
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/c++/15/bits/allocator.h:
-
-/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
@@ -11267,28 +11190,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake:
 
-/usr/include/sys/single_threaded.h:
-
-/usr/include/qt6/QtCore/qconfig.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/qt6/QtCore/qshareddata_impl.h:
-
-/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/qt6/QtCore/qsharedpointer.h:
-
-/usr/include/c++/15/bits/stl_map.h:
-
-/usr/include/c++/15/ratio:
-
 /usr/include/bits/struct_mutex.h:
 
 /usr/include/qt6/QtCore/q23utility.h:
@@ -11299,27 +11200,15 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/include/linux/posix_types.h:
 
-/usr/include/c++/15/bits/sstream.tcc:
-
-/usr/include/qt6/QtCore/qlist.h:
-
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
 
-/usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-relwithdebinfo.cmake:
+/usr/include/qt6/QtQml/qjsengine.h:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.cpp:
 
 /usr/share/cmake/Modules/Platform/Linux-GNU.cmake:
-
-/usr/include/qt6/QtQml/qqmlregistration.h:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QmlPlugins.cmake:
-
-/usr/include/c++/15/bits/functional_hash.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake:
 
@@ -11334,10 +11223,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
-
-/usr/include/c++/15/fstream:
-
-/usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/15/bits/stl_function.h:
 
@@ -11387,13 +11272,13 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginConfig.cmake:
 
+/usr/include/qt6/QtQml/qqmlpropertyvaluesource.h:
+
 /usr/include/qt6/QtCore/qcompare.h:
 
 /usr/include/c++/15/bits/vector.tcc:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
 
 /usr/include/qt6/QtCore/qstringconverter_base.h:
 
@@ -11419,7 +11304,27 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/EnergyEstimator.cpp:
 
-/usr/lib64/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+/usr/include/asm-generic/errno.h:
+
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicGitHelpers.cmake:
+
+/usr/include/c++/15/bits/streambuf_iterator.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QmlTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake:
+
+/usr/include/c++/15/debug/assertions.h:
 
 /usr/include/qt6/QtCore/qxptype_traits.h:
 
@@ -11442,34 +11347,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-relwithdebinfo.cmake:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/MonitorController.h:
-
-/usr/lib64/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-/usr/include/bits/time64.h:
-
-/usr/include/c++/15/bits/requires_hosted.h:
-
-/usr/include/asm-generic/errno.h:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6/QtPublicGitHelpers.cmake:
-
-/usr/include/c++/15/bits/streambuf_iterator.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QmlTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15/debug/assertions.h:
 
 /usr/include/alloca.h:
 
@@ -11525,6 +11402,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/SidebarButton_qm
 
 CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
+/usr/lib64/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
+
 /usr/include/bits/wordsize.h:
 
 /usr/include/bits/posix1_lim.h:
@@ -11541,7 +11420,11 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/share/cmake/Modules/FindThreads.cmake:
 
+/usr/lib64/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+
 /usr/include/asm/posix_types.h:
+
+/usr/share/cmake/Modules/CheckIncludeFile.cmake:
 
 /usr/include/c++/15/bits/stl_iterator.h:
 
@@ -11560,6 +11443,8 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/stl_raw_storage_iter.h:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake:
+
+/usr/include/c++/15/bits/ostream.h:
 
 /usr/include/qt6/QtCore/qcontainerinfo.h:
 
@@ -11587,6 +11472,14 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/asm/errno.h:
 
+/usr/include/features.h:
+
+/usr/include/qt6/QtCore/qlatin1stringview.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake:
+
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/qt6/QtCore/qstringalgorithms.h:
@@ -11605,11 +11498,9 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/bits/types/clockid_t.h:
 
-/usr/include/c++/15/bits/fstream.tcc:
-
-/usr/include/bits/stdint-intn.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake:
+
+/usr/include/bits/wctype-wchar.h:
 
 /usr/include/qt6/QtCore/qcoreapplication.h:
 
@@ -11625,18 +11516,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginAdditionalTargetInfo.cmake:
 
-/usr/include/features.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h:
-
-/usr/include/qt6/QtCore/q20iterator.h:
-
-/usr/include/qt6/QtCore/qlatin1stringview.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake:
-
 /usr/lib64/cmake/Qt6/QtFeature.cmake:
 
 /usr/include/qt6/QtCore/qfunctionpointer.h:
@@ -11651,8 +11530,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
 /usr/include/strings.h:
 
 /usr/lib64/libgomp.so.1:
@@ -11660,8 +11537,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/bits/exception.h:
 
 /usr/include/c++/15/initializer_list:
-
-/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
 /usr/include/c++/15/bits/locale_classes.tcc:
 
@@ -11677,23 +11552,11 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/linux/sched/types.h:
 
-/usr/include/c++/15/vector:
-
-/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qtcoreexports.h:
 
 /usr/include/bits/uintn-identity.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets-relwithdebinfo.cmake:
-
-/usr/include/features-time64.h:
-
-/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
-
-/usr/include/qt6/QtCore/qnumeric.h:
-
-/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 /usr/include/c++/15/bits/erase_if.h:
 
@@ -11702,6 +11565,18 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/include/c++/15/backward/binders.h:
 
 /usr/include/c++/15/exception:
+
+/usr/lib64/libQt6Core.so.6.10.2:
+
+/usr/include/qt6/QtQml/qqmlapplicationengine.h:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qtaggedpointer.h:
+
+/usr/include/c++/15/bits/std_abs.h:
+
+/usr/include/c++/15/ios:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
@@ -11739,7 +11614,7 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
+/usr/share/cmake/Modules/Compiler/GNU-C.cmake:
 
 /usr/include/c++/15/backward/auto_ptr.h:
 
@@ -11768,10 +11643,6 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
 /usr/include/c++/15/optional:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/15/array:
 
@@ -11820,10 +11691,6 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 /usr/include/c++/15/bits/functexcept.h:
 
 /usr/include/c++/15/bits/stl_vector.h:
-
-/usr/include/qt6/QtQml/qqmlprivate.h:
-
-/usr/include/c++/15/bits/uniform_int_dist.h:
 
 /usr/share/cmake/Modules/Platform/UnixPaths.cmake:
 
@@ -11893,8 +11760,6 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 
 /usr/include/c++/15/limits:
 
-/usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
 /usr/include/linux/errno.h:
 
 /usr/include/qt6/QtCore/qtdeprecationdefinitions.h:
@@ -11905,11 +11770,15 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 
 /usr/include/c++/15/pstl/pstl_config.h:
 
-/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:
+CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o:
+
+/usr/include/c++/15/bits/basic_ios.tcc:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake:
+
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h:
 
 /usr/include/c++/15/stdexcept:
 
@@ -11931,7 +11800,11 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets-relwithdebinfo.cmake:
 
+/usr/include/qt6/QtQml/qjsmanagedvalue.h:
+
 /usr/include/c++/15/tr1/modified_bessel_func.tcc:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake:
 
@@ -11953,13 +11826,13 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake:
 
+/usr/include/qt6/QtCore/qlist.h:
+
+/usr/include/c++/15/bits/sstream.tcc:
+
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15/bits/this_thread_sleep.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
 
@@ -11994,10 +11867,6 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15/climits:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
 
@@ -12042,6 +11911,12 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 /usr/lib64/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
+
+.qt/rcc/qrc_appMyApp_raw_res_0.cpp:
 
 /usr/include/bits/floatn.h:
 
@@ -12101,8 +11976,6 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginConfig.cmake:
 
-/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qcontiguouscache.h:
 
 /usr/include/qt6/QtCore/q20functional.h:
@@ -12115,12 +11988,6 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
 
-/usr/include/qt6/QtCore/qtnoop.h:
-
-/usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake:
@@ -12131,6 +11998,10 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake:
 
+/usr/include/c++/15/bits/uniform_int_dist.h:
+
+/usr/include/qt6/QtQml/qqmlprivate.h:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
@@ -12138,6 +12009,8 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
+
+/usr/include/c++/15/bits/istream.tcc:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -12174,8 +12047,6 @@ CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o:
 /usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
 
 /usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake:
 
@@ -12231,6 +12102,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginAdditionalTargetInfo.cmake:
 
+/usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginTargets.cmake:
@@ -12239,11 +12112,19 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake:
 
+/usr/include/c++/15/bits/std_thread.h:
+
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginAdditionalTargetInfo.cmake:
+
+/usr/include/errno.h:
+
+/usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake:
 
@@ -12253,17 +12134,9 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-relwithdebinfo.cmake:
 
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMakeLists.txt:
-
-/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake:
-
-/usr/include/qt6/QtCore/qstdlibdetection.h:
-
-/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets-relwithdebinfo.cmake:
 
@@ -12278,6 +12151,8 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginAdditionalTargetInfo.cmake:
 
@@ -12310,6 +12185,10 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 /usr/lib64/cmake/Qt6Gui/Qt6QLibInputPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15/bits/this_thread_sleep.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets.cmake:
 
@@ -12413,10 +12292,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets-relwithdebinfo.cmake:
 
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qcoreevent.h:
 
 /usr/include/c++/15/pstl/glue_numeric_defs.h:
@@ -12432,8 +12307,6 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets.cmake:
 
@@ -12483,6 +12356,10 @@ CMakeFiles/appMyApp.dir/build/.rcc/qmlcache/appMyApp_components/TableHeader_qml.
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginAdditionalTargetInfo.cmake:
 
+/usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake:
+
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets-relwithdebinfo.cmake:
 
 CMakeFiles/appMyApp.dir/build/.qt/rcc/qrc_appMyApp_raw_res_0.cpp.o:
@@ -12515,7 +12392,7 @@ appmyapp_qmltyperegistrations.cpp:
 
 /usr/include/bits/mathcalls.h:
 
-/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake:
 
 /usr/include/qt6/QtCore/qoverload.h:
 
@@ -12551,11 +12428,11 @@ appmyapp_qmltyperegistrations.cpp:
 
 /usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
 
+/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets.cmake:
+
 /usr/include/bits/local_lim.h:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets.cmake:
 
@@ -12585,10 +12462,6 @@ appmyapp_qmltyperegistrations.cpp:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets.cmake:
 
-/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qsharedpointer_impl.h:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets-relwithdebinfo.cmake:
@@ -12615,10 +12488,6 @@ appmyapp_qmltyperegistrations.cpp:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake:
 
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake:
-
-/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QmlVersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in:
@@ -12636,6 +12505,8 @@ appmyapp_qmltyperegistrations.cpp:
 /usr/lib64/cmake/Qt6QmlIntegration/Qt6QmlIntegrationVersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:
+
+/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:
 
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersion.cmake:
 
@@ -12665,11 +12536,7 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o:
 
 /usr/lib64/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfigVersion.cmake:
 
-/usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake:
-
 /usr/include/sys/types.h:
-
-/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersion.cmake:
 
@@ -12682,6 +12549,8 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o:
 /usr/include/bits/flt-eval-method.h:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersionImpl.cmake:
+
+/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsDependencies.cmake:
 
@@ -12721,10 +12590,6 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o:
 
 /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
-/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
 /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlConfigVersionImpl.cmake:
@@ -12735,107 +12600,15 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o:
 
 appMyApp_autogen/R3EUN6MJF2/moc_EnergyController.cpp:
 
-/usr/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
 CMakeFiles/appMyApp.dir/appMyApp_autogen/mocs_compilation.cpp.o:
 
 /usr/lib64/libduktape.so.207:
 
 /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
-/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:
-
-CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o:
-
-/usr/include/c++/15/bits/alloc_traits.h:
-
-/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
 /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
 
-/usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:
-
-/usr/include/c++/15/bits/basic_ios.h:
-
-/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/bin/cmake:
-
-/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:
-
 /usr/share/cmake/Modules/Compiler/GNU.cmake:
-
-/usr/include/c++/15/thread:
-
-/usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/c++/15/cwctype:
-
-/usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/lib64/libQt6Core.so.6.10.2:
-
-/usr/include/qt6/QtQml/qqmlapplicationengine.h:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtCore/qtaggedpointer.h:
-
-/usr/include/c++/15/bits/std_abs.h:
-
-/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/include/qt6/QtCore/QUrl:
-
-/usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/include/c++/15/bits/hash_bytes.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
-
-/usr/include/qt6/QtQml/qjsvalue.h:
 
 /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
@@ -12845,6 +12618,12 @@ CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o:
 
 /usr/share/cmake/Modules/GNUInstallDirs.cmake:
 
+/usr/include/c++/15/climits:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
+
+/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake:
+
 /usr/lib64/libsasl2.so.3:
 
 /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
@@ -12853,29 +12632,15 @@ CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o:
 
 /usr/include/qt6/QtCore/qtmochelpers.h:
 
-/usr/include/errno.h:
-
-/usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
 /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
-
-/usr/include/c++/15/istream:
-
-/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
 /usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake:
 
 /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
-/usr/share/cmake/Modules/Internal/FeatureTesting.cmake:
-
 /usr/share/cmake/Modules/Linker/GNU.cmake:
 
-/usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake:
+/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake:
 
 /usr/share/cmake/Modules/Platform/Linux.cmake:
 
@@ -12891,11 +12656,15 @@ appMyApp_autogen/R3EUN6MJF2/moc_ProcessModel.cpp:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
+/usr/include/bits/math-vector.h:
+
 /usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/qt6/QtCore/qstringtokenizer.h:
 
 /usr/include/c++/15/bits/monostate.h:
+
+/usr/include/dirent.h:
 
 /usr/include/c++/15/ext/atomicity.h:
 
@@ -12927,8 +12696,6 @@ appMyApp_autogen/R3EUN6MJF2/moc_ProcessModel.cpp:
 
 /usr/include/qt6/QtCore/qmetaobject.h:
 
-/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
-
 /usr/include/qt6/QtCore/qurl.h:
 
 /usr/include/qt6/QtCore/qversionnumber.h:
@@ -12945,6 +12712,80 @@ appMyApp_autogen/R3EUN6MJF2/moc_ProcessModel.cpp:
 
 /usr/include/qt6/QtQml/qjsprimitivevalue.h:
 
+/usr/include/c++/15/bits/hash_bytes.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+
+/usr/include/qt6/QtQml/qjsvalue.h:
+
 /usr/include/qt6/QtCore/qdebug.h:
 
 /usr/include/qt6/QtQml/qqmllist.h:
+
+/usr/include/qt6/QtQml/qqmlparserstatus.h:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QmlPlugins.cmake:
+
+/usr/include/c++/15/bits/functional_hash.h:
+
+/usr/include/qt6/QtQml/qqmlregistration.h:
+
+/usr/include/qt6/QtQml/qtqml-config.h:
+
+/usr/include/qt6/QtQml/qtqmlexports.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6GuiTargets.cmake:
+
+/usr/include/qt6/QtQml/qtqmlglobal.h:
+
+/usr/include/qt6/QtQmlIntegration/qqmlintegration.h:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-relwithdebinfo.cmake:
+
+.qt/rcc/qrc_qmake_MyApp.cpp:
+
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h:
+
+/usr/include/qt6/QtCore/q20iterator.h:
+
+/usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/15/bits/codecvt.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/c++/15/bits/fstream.tcc:
+
+/usr/include/c++/15/cwctype:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/share/cmake/Modules/CMakeCInformation.cmake:
+
+/usr/include/c++/15/fstream:
+
+/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
+
+/usr/include/c++/15/istream:
+
+/usr/lib64/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
+
+/usr/include/wctype.h:
+
+/usr/include/bits/dirent_ext.h:
+
+/usr/include/qt6/QtGui/qtguiglobal.h:
+
+/usr/include/c++/15/tr1/gamma.tcc:
+
+/usr/include/c++/15/sstream:
+
+/usr/include/c++/15/thread:
+
+/usr/include/qt6/QtQml/qqmlabstracturlinterceptor.h:
+
+/usr/include/qt6/QtQml/qqmlcomponent.h:
+
+/usr/include/qt6/QtQml/qqmldebug.h:
+
+/usr/include/qt6/QtQml/qqmlerror.h:

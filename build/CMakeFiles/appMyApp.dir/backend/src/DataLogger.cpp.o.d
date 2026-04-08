@@ -98,7 +98,8 @@ CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.o: \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/sqlite3.h \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \

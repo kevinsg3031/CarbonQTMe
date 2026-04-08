@@ -63,11 +63,13 @@ CMAKE_BINARY_DIR = /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sqlite3.dir/all
 all: CMakeFiles/appMyApp.dir/all
 all: CMakeFiles/carbonqtapp.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/sqlite3.dir/codegen
 codegen: CMakeFiles/appMyApp.dir/codegen
 codegen: CMakeFiles/carbonqtapp.dir/codegen
 .PHONY : codegen
@@ -77,6 +79,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sqlite3.dir/clean
 clean: CMakeFiles/appMyApp.dir/clean
 clean: CMakeFiles/carbonqtapp.dir/clean
 clean: CMakeFiles/appMyApp_qmltyperegistration.dir/clean
@@ -93,6 +96,8 @@ clean: CMakeFiles/appMyApp_copy_res.dir/clean
 clean: CMakeFiles/generate_qmlls_build_ini_file.dir/clean
 clean: CMakeFiles/module_appMyApp_aotstats_target.dir/clean
 clean: CMakeFiles/all_aotstats.dir/clean
+clean: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sqlite3_autogen.dir/clean
 clean: CMakeFiles/appMyApp_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/appMyApp_autogen.dir/clean
 clean: CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/clean
@@ -100,9 +105,43 @@ clean: CMakeFiles/carbonqtapp_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sqlite3.dir
+
+# All Build rule for target.
+CMakeFiles/sqlite3.dir/all: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+CMakeFiles/sqlite3.dir/all: CMakeFiles/sqlite3_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num=80,81,82,83 "Built target sqlite3"
+.PHONY : CMakeFiles/sqlite3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqlite3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sqlite3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/sqlite3.dir/rule
+
+# Convenience name for target.
+sqlite3: CMakeFiles/sqlite3.dir/rule
+.PHONY : sqlite3
+
+# codegen rule for target.
+CMakeFiles/sqlite3.dir/codegen: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num=80,81,82,83 "Finished codegen for target sqlite3"
+.PHONY : CMakeFiles/sqlite3.dir/codegen
+
+# clean rule for target.
+CMakeFiles/sqlite3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/clean
+.PHONY : CMakeFiles/sqlite3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/appMyApp.dir
 
 # All Build rule for target.
+CMakeFiles/appMyApp.dir/all: CMakeFiles/sqlite3.dir/all
 CMakeFiles/appMyApp.dir/all: CMakeFiles/appMyApp_copy_qml.dir/all
 CMakeFiles/appMyApp.dir/all: CMakeFiles/appMyApp_copy_res.dir/all
 CMakeFiles/appMyApp.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
@@ -115,7 +154,7 @@ CMakeFiles/appMyApp.dir/all: CMakeFiles/appMyApp_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 56
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp.dir/rule
@@ -140,6 +179,7 @@ CMakeFiles/appMyApp.dir/clean:
 # Target rules for target CMakeFiles/carbonqtapp.dir
 
 # All Build rule for target.
+CMakeFiles/carbonqtapp.dir/all: CMakeFiles/sqlite3.dir/all
 CMakeFiles/carbonqtapp.dir/all: CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/all
 CMakeFiles/carbonqtapp.dir/all: CMakeFiles/carbonqtapp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/depend
@@ -149,7 +189,7 @@ CMakeFiles/carbonqtapp.dir/all: CMakeFiles/carbonqtapp_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/carbonqtapp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/carbonqtapp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/carbonqtapp.dir/rule
@@ -181,7 +221,7 @@ CMakeFiles/appMyApp_qmltyperegistration.dir/all: CMakeFiles/appMyApp_autogen_tim
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_qmltyperegistration.dir/rule
@@ -213,7 +253,7 @@ CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/appMyApp_qmltyperegistra
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmltyperegistrations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmltyperegistrations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/rule
@@ -277,7 +317,7 @@ CMakeFiles/appMyApp_qmllint.dir/all: CMakeFiles/all_qmltyperegistrations.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_qmllint.dir/rule
@@ -309,7 +349,7 @@ CMakeFiles/appMyApp_qmllint_json.dir/all: CMakeFiles/all_qmltyperegistrations.di
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_qmllint_json.dir/rule
@@ -341,7 +381,7 @@ CMakeFiles/appMyApp_qmllint_module.dir/all: CMakeFiles/all_qmltyperegistrations.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_qmllint_module.dir/rule
@@ -373,7 +413,7 @@ CMakeFiles/all_qmllint.dir/all: CMakeFiles/appMyApp_qmllint.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint.dir/rule
@@ -405,7 +445,7 @@ CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/appMyApp_qmllint_json.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_json.dir/rule
@@ -437,7 +477,7 @@ CMakeFiles/all_qmllint_module.dir/all: CMakeFiles/appMyApp_qmllint_module.dir/al
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_module.dir/rule
@@ -566,7 +606,7 @@ CMakeFiles/module_appMyApp_aotstats_target.dir/all: CMakeFiles/appMyApp_autogen_
 
 # Build rule for subdir invocation for target.
 CMakeFiles/module_appMyApp_aotstats_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/module_appMyApp_aotstats_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/module_appMyApp_aotstats_target.dir/rule
@@ -600,7 +640,7 @@ CMakeFiles/all_aotstats.dir/all: CMakeFiles/appMyApp_autogen_timestamp_deps.dir/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_aotstats.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_aotstats.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/all_aotstats.dir/rule
@@ -622,9 +662,74 @@ CMakeFiles/all_aotstats.dir/clean:
 .PHONY : CMakeFiles/all_aotstats.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sqlite3_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build.make CMakeFiles/sqlite3_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build.make CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num= "Built target sqlite3_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqlite3_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/sqlite3_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+sqlite3_autogen_timestamp_deps: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/rule
+.PHONY : sqlite3_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/sqlite3_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build.make CMakeFiles/sqlite3_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num= "Finished codegen for target sqlite3_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sqlite3_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/sqlite3_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build.make CMakeFiles/sqlite3_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sqlite3_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sqlite3_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/sqlite3_autogen.dir/all: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen.dir/build.make CMakeFiles/sqlite3_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen.dir/build.make CMakeFiles/sqlite3_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num=84 "Built target sqlite3_autogen"
+.PHONY : CMakeFiles/sqlite3_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sqlite3_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sqlite3_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
+.PHONY : CMakeFiles/sqlite3_autogen.dir/rule
+
+# Convenience name for target.
+sqlite3_autogen: CMakeFiles/sqlite3_autogen.dir/rule
+.PHONY : sqlite3_autogen
+
+# codegen rule for target.
+CMakeFiles/sqlite3_autogen.dir/codegen: CMakeFiles/sqlite3_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen.dir/build.make CMakeFiles/sqlite3_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num=84 "Finished codegen for target sqlite3_autogen"
+.PHONY : CMakeFiles/sqlite3_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/sqlite3_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen.dir/build.make CMakeFiles/sqlite3_autogen.dir/clean
+.PHONY : CMakeFiles/sqlite3_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/appMyApp_autogen_timestamp_deps.dir
 
 # All Build rule for target.
+CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all: CMakeFiles/sqlite3.dir/all
 CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all: CMakeFiles/appMyApp_copy_qml.dir/all
 CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all: CMakeFiles/appMyApp_copy_res.dir/all
 CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
@@ -635,7 +740,7 @@ CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all: CMakeFiles/generate_qmlls_bu
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_autogen_timestamp_deps.dir/rule
@@ -667,7 +772,7 @@ CMakeFiles/appMyApp_autogen.dir/all: CMakeFiles/appMyApp_autogen_timestamp_deps.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appMyApp_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appMyApp_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appMyApp_autogen.dir/rule
@@ -691,7 +796,7 @@ CMakeFiles/appMyApp_autogen.dir/clean:
 # Target rules for target CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/all:
+CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/all: CMakeFiles/sqlite3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/build.make CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/build.make CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles --progress-num= "Built target carbonqtapp_autogen_timestamp_deps"
@@ -699,7 +804,7 @@ CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/rule
@@ -731,7 +836,7 @@ CMakeFiles/carbonqtapp_autogen.dir/all: CMakeFiles/carbonqtapp_autogen_timestamp
 
 # Build rule for subdir invocation for target.
 CMakeFiles/carbonqtapp_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/carbonqtapp_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/carbonqtapp_autogen.dir/rule

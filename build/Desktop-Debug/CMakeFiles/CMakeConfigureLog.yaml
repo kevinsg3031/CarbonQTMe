@@ -13,6 +13,28 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/aarch64-redhat-linux-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/3.31.11/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
@@ -34,13 +56,243 @@ events:
     kind: "try_compile-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu"
+      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_049ef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_049ef.dir/build.make CMakeFiles/cmTC_049ef.dir/build
+        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu'
+        Building C object CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o
+        /usr/bin/aarch64-redhat-linux-gcc   -v -o CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/aarch64-redhat-linux-gcc
+        Target: aarch64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-15.2.1-build/gcc-15.2.1-20260123/obj-aarch64-redhat-linux/isl-install --enable-gnu-indirect-function --build=aarch64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp --disable-libquadmath
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/'
+         /usr/libexec/gcc/aarch64-redhat-linux/15/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_049ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/cc47apfn.s
+        GNU C23 (GCC) version 15.2.1 20260123 (Red Hat 15.2.1-7) (aarch64-redhat-linux)
+        	compiled by GNU C version 15.2.1 20260123 (Red Hat 15.2.1-7), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-redhat-linux/15/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-redhat-linux/15/../../../../aarch64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/aarch64-redhat-linux/15/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: ef9209cf564ac74886320998acaf62af
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o /tmp/cc47apfn.s
+        GNU assembler version 2.45.1 (aarch64-redhat-linux) using BFD version version 2.45.1-4.fc43
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_049ef
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_049ef.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/aarch64-redhat-linux-gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper
+        Target: aarch64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-15.2.1-build/gcc-15.2.1-20260123/obj-aarch64-redhat-linux/isl-install --enable-gnu-indirect-function --build=aarch64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp --disable-libquadmath
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_049ef' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_049ef.'
+         /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNvGeK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_049ef /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
+        collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)
+        /usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNvGeK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_049ef /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
+        GNU ld version 2.45.1-4.fc43
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_049ef' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_049ef.'
+        /usr/bin/aarch64-redhat-linux-gcc  -v -Wl,-v CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -o cmTC_049ef
+        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/aarch64-redhat-linux/15/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/aarch64-redhat-linux/15/include] ==> [/usr/lib/gcc/aarch64-redhat-linux/15/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/aarch64-redhat-linux/15/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_049ef/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_049ef.dir/build.make CMakeFiles/cmTC_049ef.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-R0b0fu']
+        ignore line: [Building C object CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/aarch64-redhat-linux-gcc   -v -o CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/aarch64-redhat-linux-gcc]
+        ignore line: [Target: aarch64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-15.2.1-build/gcc-15.2.1-20260123/obj-aarch64-redhat-linux/isl-install --enable-gnu-indirect-function --build=aarch64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp --disable-libquadmath]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/']
+        ignore line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_049ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/cc47apfn.s]
+        ignore line: [GNU C23 (GCC) version 15.2.1 20260123 (Red Hat 15.2.1-7) (aarch64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 15.2.1 20260123 (Red Hat 15.2.1-7)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-redhat-linux/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-redhat-linux/15/../../../../aarch64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/aarch64-redhat-linux/15/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: ef9209cf564ac74886320998acaf62af]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o /tmp/cc47apfn.s]
+        ignore line: [GNU assembler version 2.45.1 (aarch64-redhat-linux) using BFD version version 2.45.1-4.fc43]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_049ef]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_049ef.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/aarch64-redhat-linux-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper]
+        ignore line: [Target: aarch64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-15.2.1-build/gcc-15.2.1-20260123/obj-aarch64-redhat-linux/isl-install --enable-gnu-indirect-function --build=aarch64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp --disable-libquadmath]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_049ef' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_049ef.']
+        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNvGeK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_049ef /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/aarch64-redhat-linux/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfNvGeK.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_049ef] ==> ignore
+          arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o]
+          arg [-L/usr/lib/gcc/aarch64-redhat-linux/15] ==> dir [/usr/lib/gcc/aarch64-redhat-linux/15]
+          arg [-L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64] ==> dir [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/aarch64-redhat-linux/15/../../..] ==> dir [/usr/lib/gcc/aarch64-redhat-linux/15/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o]
+          arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNvGeK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_049ef /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_049ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-redhat-linux/15] ==> [/usr/lib/gcc/aarch64-redhat-linux/15]
+        collapse library dir [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/aarch64-redhat-linux/15/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o;/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-redhat-linux/15;/usr/lib64;/lib64;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.45.1-4.fc43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2"
-      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2"
+      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe"
+      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -50,13 +302,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2'
+        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e8b4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2e8b4.dir/build.make CMakeFiles/cmTC_2e8b4.dir/build
-        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2'
-        Building CXX object CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/aarch64-redhat-linux-g++   -DQT_QML_DEBUG    -v -o CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71834/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_71834.dir/build.make CMakeFiles/cmTC_71834.dir/build
+        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe'
+        Building CXX object CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/aarch64-redhat-linux-g++   -DQT_QML_DEBUG    -v -o CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/aarch64-redhat-linux-g++
         Target: aarch64-redhat-linux
@@ -64,8 +316,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) 
-        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/'
-         /usr/libexec/gcc/aarch64-redhat-linux/15/cc1plus -quiet -v -D_GNU_SOURCE -D QT_QML_DEBUG /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2e8b4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccT1OaEu.s
+        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/'
+         /usr/libexec/gcc/aarch64-redhat-linux/15/cc1plus -quiet -v -D_GNU_SOURCE -D QT_QML_DEBUG /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_71834.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cctabElR.s
         GNU C++17 (GCC) version 15.2.1 20260123 (Red Hat 15.2.1-7) (aarch64-redhat-linux)
         	compiled by GNU C version 15.2.1 20260123 (Red Hat 15.2.1-7), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
         
@@ -82,14 +334,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f003244b3719896e473681084f966f39
-        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccT1OaEu.s
+        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctabElR.s
         GNU assembler version 2.45.1 (aarch64-redhat-linux) using BFD version version 2.45.1-4.fc43
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2e8b4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e8b4.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_71834
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71834.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/aarch64-redhat-linux-g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper
@@ -100,14 +352,14 @@ events:
         gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_2e8b4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2e8b4.'
-         /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP71AB3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e8b4 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_71834' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_71834.'
+         /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP9mbpM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_71834 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
         collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)
-        /usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP71AB3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e8b4 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP9mbpM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_71834 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o
         GNU ld version 2.45.1-4.fc43
-        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_2e8b4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2e8b4.'
-        /usr/bin/aarch64-redhat-linux-g++ -DQT_QML_DEBUG   -v -Wl,-v CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2e8b4
-        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2'
+        COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_71834' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_71834.'
+        /usr/bin/aarch64-redhat-linux-g++ -DQT_QML_DEBUG   -v -Wl,-v CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_71834
+        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe'
         
       exitCode: 0
   -
@@ -146,13 +398,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2']
+        ignore line: [Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e8b4/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2e8b4.dir/build.make CMakeFiles/cmTC_2e8b4.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eoKXI2']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/aarch64-redhat-linux-g++   -DQT_QML_DEBUG    -v -o CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71834/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_71834.dir/build.make CMakeFiles/cmTC_71834.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-WqTOVe']
+        ignore line: [Building CXX object CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/aarch64-redhat-linux-g++   -DQT_QML_DEBUG    -v -o CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/aarch64-redhat-linux-g++]
         ignore line: [Target: aarch64-redhat-linux]
@@ -160,8 +412,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/']
-        ignore line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/cc1plus -quiet -v -D_GNU_SOURCE -D QT_QML_DEBUG /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2e8b4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccT1OaEu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/']
+        ignore line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/cc1plus -quiet -v -D_GNU_SOURCE -D QT_QML_DEBUG /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_71834.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cctabElR.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20260123 (Red Hat 15.2.1-7) (aarch64-redhat-linux)]
         ignore line: [	compiled by GNU C version 15.2.1 20260123 (Red Hat 15.2.1-7)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -178,14 +430,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f003244b3719896e473681084f966f39]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccT1OaEu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctabElR.s]
         ignore line: [GNU assembler version 2.45.1 (aarch64-redhat-linux) using BFD version version 2.45.1-4.fc43]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2e8b4]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e8b4.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_71834]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71834.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/aarch64-redhat-linux-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper]
@@ -196,13 +448,13 @@ events:
         ignore line: [gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/15/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/15/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_2e8b4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2e8b4.']
-        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP71AB3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e8b4 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'QT_QML_DEBUG' '-v' '-o' 'cmTC_71834' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_71834.']
+        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP9mbpM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_71834 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/aarch64-redhat-linux/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccP71AB3.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccP9mbpM.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -218,7 +470,7 @@ events:
           arg [-EL] ==> ignore
           arg [-maarch64linux] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2e8b4] ==> ignore
+          arg [cmTC_71834] ==> ignore
           arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o]
@@ -230,7 +482,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -241,7 +493,7 @@ events:
           arg [/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
         ignore line: [collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP71AB3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e8b4 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2e8b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/aarch64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP9mbpM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_71834 /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/15 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71834.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -273,8 +525,8 @@ events:
     kind: "try_compile-v1"
     backtrace:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
-      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
-      - "/usr/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
       - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
@@ -284,28 +536,28 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8"
-      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8"
+      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K"
+      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/usr/lib64/cmake/Qt6;/usr/lib64/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib64/cmake/Qt6/3rdparty/kwin"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8'
+        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5f001/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5f001.dir/build.make CMakeFiles/cmTC_5f001.dir/build
-        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8'
-        Building CXX object CMakeFiles/cmTC_5f001.dir/src.cxx.o
-        /usr/bin/aarch64-redhat-linux-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -o CMakeFiles/cmTC_5f001.dir/src.cxx.o -c /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8/src.cxx
-        Linking CXX executable cmTC_5f001
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f001.dir/link.txt --verbose=1
-        /usr/bin/aarch64-redhat-linux-g++ -DQT_QML_DEBUG  CMakeFiles/cmTC_5f001.dir/src.cxx.o -o cmTC_5f001
-        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-z28VO8'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9953b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9953b.dir/build.make CMakeFiles/cmTC_9953b.dir/build
+        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K'
+        Building C object CMakeFiles/cmTC_9953b.dir/src.c.o
+        /usr/bin/aarch64-redhat-linux-gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9953b.dir/src.c.o -c /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K/src.c
+        Linking C executable cmTC_9953b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9953b.dir/link.txt --verbose=1
+        /usr/bin/aarch64-redhat-linux-gcc CMakeFiles/cmTC_9953b.dir/src.c.o -o cmTC_9953b
+        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-NN001K'
         
       exitCode: 0
   -
@@ -327,8 +579,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB"
-      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB"
+      source: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE"
+      binary: "/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -338,17 +590,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB'
+        Change Dir: '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dfb5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9dfb5.dir/build.make CMakeFiles/cmTC_9dfb5.dir/build
-        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB'
-        Building CXX object CMakeFiles/cmTC_9dfb5.dir/src.cxx.o
-        /usr/bin/aarch64-redhat-linux-g++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -o CMakeFiles/cmTC_9dfb5.dir/src.cxx.o -c /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB/src.cxx
-        Linking CXX executable cmTC_9dfb5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dfb5.dir/link.txt --verbose=1
-        /usr/bin/aarch64-redhat-linux-g++ -DQT_QML_DEBUG  CMakeFiles/cmTC_9dfb5.dir/src.cxx.o -o cmTC_9dfb5
-        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-cpdCbB'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8594d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8594d.dir/build.make CMakeFiles/cmTC_8594d.dir/build
+        gmake[1]: Entering directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE'
+        Building CXX object CMakeFiles/cmTC_8594d.dir/src.cxx.o
+        /usr/bin/aarch64-redhat-linux-g++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -o CMakeFiles/cmTC_8594d.dir/src.cxx.o -c /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE/src.cxx
+        Linking CXX executable cmTC_8594d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8594d.dir/link.txt --verbose=1
+        /usr/bin/aarch64-redhat-linux-g++ -DQT_QML_DEBUG  CMakeFiles/cmTC_8594d.dir/src.cxx.o -o cmTC_8594d
+        gmake[1]: Leaving directory '/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-qyzoSE'
         
       exitCode: 0
 ...

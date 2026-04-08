@@ -1,3 +1,5 @@
+set(__QT_DEPLOY_TARGET_sqlite3_FILE /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/libsqlite3.a)
+set(__QT_DEPLOY_TARGET_sqlite3_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_appMyApp_FILE /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/appMyApp)
 set(__QT_DEPLOY_TARGET_appMyApp_TYPE EXECUTABLE)
 set(__QT_DEPLOY_TARGET_carbonqtapp_FILE /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/carbonqtapp)

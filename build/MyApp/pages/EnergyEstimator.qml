@@ -6,9 +6,12 @@ Item {
     anchors.fill: parent
 
     ColumnLayout {
-        anchors.fill: parent
+        width: parent.width
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: parent.right
         anchors.margins: 32
-        spacing: 32
+        spacing: 20
 
         Text {
             text: "Energy Estimator"
@@ -19,24 +22,29 @@ Item {
 
         RowLayout {
             Layout.fillWidth: true
+            Layout.preferredHeight: 440
+            Layout.maximumHeight: 540
             spacing: 24
 
             ColumnLayout {
-                Layout.preferredWidth: parent.width * 0.25
-                spacing: 20
+                Layout.preferredWidth: 260
+                Layout.preferredHeight: 220
+                Layout.maximumWidth: 300
+                Layout.fillHeight: true
+                spacing: 24
 
                 StatCard {
                     title: "CPU Power"
                     value: energyBackend.cpuWatts.toFixed(2) + " W"
-                    Layout.preferredWidth: 200
-                    Layout.preferredHeight: 180
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
                 }
 
                 StatCard {
                     title: "RAM Power"
                     value: energyBackend.ramWatts.toFixed(2) + " W"
-                    Layout.preferredWidth: 200
-                    Layout.preferredHeight: 180
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
                 }
             }
 
@@ -44,7 +52,6 @@ Item {
                 radius: 16
                 color: "#A5D6A7"
                 border.color: "#428F44"
-
                 Layout.fillWidth: true
                 Layout.fillHeight: true
 
@@ -93,7 +100,6 @@ Item {
                     }
                 }
             }
-
         }
 
         RowLayout {
@@ -105,7 +111,6 @@ Item {
                 value: energyBackend.energyJoules.toFixed(3) + " J"
                 Layout.fillWidth: true
                 Layout.preferredHeight: 150
-                // wide: true
             }
 
             StatCard {
@@ -113,10 +118,7 @@ Item {
                 value: energyBackend.co2.toFixed(6) + " kg"
                 Layout.fillWidth: true
                 Layout.preferredHeight: 150
-                // wide: true
             }
         }
     }
 }
-
-

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG
 
-CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/carbonqtapp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++
+CXX_INCLUDES = -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/carbonqtapp_autogen/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src -I/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3 -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++
 
 CXX_FLAGS = -std=gnu++17
 

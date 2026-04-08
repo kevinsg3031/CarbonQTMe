@@ -280,7 +280,7 @@ CMakeFiles/appMyApp.dir/qtbridge/EnergyController.cpp.o: \
  /usr/include/c++/15/ctime \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
- /usr/include/sqlite3.h \
+ /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
  /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
  /usr/include/qt6/QtCore/qbasictimer.h \

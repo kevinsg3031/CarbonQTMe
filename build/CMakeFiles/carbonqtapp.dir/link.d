@@ -10,7 +10,7 @@ carbonqtapp: \
   CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.o \
   CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o \
   /usr/lib64/libQt6Core.so.6.10.2 \
-  /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libsqlite3.so \
+  libsqlite3.a \
   /usr/lib/gcc/aarch64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libm.so \
@@ -75,7 +75,7 @@ CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o:
 
 /usr/lib64/libQt6Core.so.6.10.2:
 
-/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libsqlite3.so:
+libsqlite3.a:
 
 /usr/lib/gcc/aarch64-redhat-linux/15/libstdc++.so:
 

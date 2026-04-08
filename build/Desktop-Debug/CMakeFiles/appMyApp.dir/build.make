@@ -725,6 +725,7 @@ appMyApp: CMakeFiles/appMyApp.dir/build/Desktop-Debug/.qt/rcc/qrc_appMyApp_raw_r
 appMyApp: CMakeFiles/appMyApp.dir/build.make
 appMyApp: CMakeFiles/appMyApp.dir/compiler_depend.ts
 appMyApp: /usr/lib64/libQt6Quick.so.6.10.2
+appMyApp: libsqlite3.a
 appMyApp: /usr/lib64/libQt6OpenGL.so.6.10.2
 appMyApp: /usr/lib64/libQt6Gui.so.6.10.2
 appMyApp: /usr/lib64/libGLX.so

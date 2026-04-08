@@ -8,6 +8,7 @@ carbonqtapp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CM
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ProcessTracker.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/SystemMonitor.cpp \
   .qtc/package-manager/auto-setup.cmake \
+  CMakeFiles/3.31.11/CMakeCCompiler.cmake \
   CMakeFiles/3.31.11/CMakeCXXCompiler.cmake \
   CMakeFiles/3.31.11/CMakeSystem.cmake \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/carbonqt_cli.cpp \
@@ -551,1821 +552,66 @@ carbonqtapp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CM
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
   /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
-  /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /usr/share/cmake/Modules/CMakeCInformation.cmake \
   /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /usr/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake \
+  /usr/share/cmake/Modules/CheckIncludeFile.cmake \
   /usr/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake/Modules/Compiler/GNU-C.cmake \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/FindOpenGL.cmake \
   /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake/Modules/FindPackageMessage.cmake \
   /usr/share/cmake/Modules/FindThreads.cmake \
   /usr/share/cmake/Modules/FindVulkan.cmake \
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
+  /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /usr/share/cmake/Modules/Linker/GNU-C.cmake \
   /usr/share/cmake/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Linker/GNU.cmake \
   /usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/share/cmake/Modules/Platform/Linker/GNU.cmake \
+  /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake \
+  /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
   /usr/share/cmake/Modules/Platform/Linux.cmake \
   /usr/share/cmake/Modules/Platform/UnixPaths.cmake
 
-CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ContextSwitchAnalyzer.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/types.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_ios.h \
-  /usr/include/c++/15/bits/basic_ios.tcc \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/codecvt.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/exception_ptr.h \
-  /usr/include/c++/15/bits/fstream.tcc \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/ios_base.h \
-  /usr/include/c++/15/bits/istream.tcc \
-  /usr/include/c++/15/bits/locale_classes.h \
-  /usr/include/c++/15/bits/locale_classes.tcc \
-  /usr/include/c++/15/bits/locale_facets.h \
-  /usr/include/c++/15/bits/locale_facets.tcc \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/nested_exception.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream.h \
-  /usr/include/c++/15/bits/ostream.tcc \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/streambuf.tcc \
-  /usr/include/c++/15/bits/streambuf_iterator.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/cwctype \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/exception \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/atomicity.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/fstream \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/ios \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/istream \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/ostream \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/stdexcept \
-  /usr/include/c++/15/streambuf \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/system_error \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/typeinfo \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h
-
-CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/DataLogger.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/types.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_ios.h \
-  /usr/include/c++/15/bits/basic_ios.tcc \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/exception_ptr.h \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/ios_base.h \
-  /usr/include/c++/15/bits/istream.tcc \
-  /usr/include/c++/15/bits/locale_classes.h \
-  /usr/include/c++/15/bits/locale_classes.tcc \
-  /usr/include/c++/15/bits/locale_facets.h \
-  /usr/include/c++/15/bits/locale_facets.tcc \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/nested_exception.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream.h \
-  /usr/include/c++/15/bits/ostream.tcc \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_bvector.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/stl_uninitialized.h \
-  /usr/include/c++/15/bits/stl_vector.h \
-  /usr/include/c++/15/bits/streambuf.tcc \
-  /usr/include/c++/15/bits/streambuf_iterator.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/vector.tcc \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/ctime \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/cwctype \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/exception \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/atomicity.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/ios \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/iostream \
-  /usr/include/c++/15/istream \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/ostream \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/stdexcept \
-  /usr/include/c++/15/streambuf \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/system_error \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/typeinfo \
-  /usr/include/c++/15/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/sqlite3.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h
-
-CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/EnergyEstimator.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm/errno.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_bvector.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/stl_uninitialized.h \
-  /usr/include/c++/15/bits/stl_vector.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/vector.tcc \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/linux/errno.h \
-  /usr/include/locale.h \
-  /usr/include/sqlite3.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/types.h \
-  /usr/include/wchar.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h
-
-CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ProcessTracker.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/types.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/dirent.h \
-  /usr/include/bits/dirent_ext.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_ios.h \
-  /usr/include/c++/15/bits/basic_ios.tcc \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/codecvt.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/exception_ptr.h \
-  /usr/include/c++/15/bits/fstream.tcc \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/ios_base.h \
-  /usr/include/c++/15/bits/istream.tcc \
-  /usr/include/c++/15/bits/locale_classes.h \
-  /usr/include/c++/15/bits/locale_classes.tcc \
-  /usr/include/c++/15/bits/locale_facets.h \
-  /usr/include/c++/15/bits/locale_facets.tcc \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/nested_exception.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream.h \
-  /usr/include/c++/15/bits/ostream.tcc \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_bvector.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/stl_uninitialized.h \
-  /usr/include/c++/15/bits/stl_vector.h \
-  /usr/include/c++/15/bits/streambuf.tcc \
-  /usr/include/c++/15/bits/streambuf_iterator.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/vector.tcc \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/cwctype \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/exception \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/atomicity.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/fstream \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/ios \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/iostream \
-  /usr/include/c++/15/istream \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/ostream \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/stdexcept \
-  /usr/include/c++/15/streambuf \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/system_error \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/typeinfo \
-  /usr/include/c++/15/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/sqlite3.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h
-
-CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/SystemMonitor.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/types.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_ios.h \
-  /usr/include/c++/15/bits/basic_ios.tcc \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/chrono.h \
-  /usr/include/c++/15/bits/codecvt.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/exception_ptr.h \
-  /usr/include/c++/15/bits/fstream.tcc \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/ios_base.h \
-  /usr/include/c++/15/bits/istream.tcc \
-  /usr/include/c++/15/bits/locale_classes.h \
-  /usr/include/c++/15/bits/locale_classes.tcc \
-  /usr/include/c++/15/bits/locale_facets.h \
-  /usr/include/c++/15/bits/locale_facets.tcc \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/nested_exception.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream.h \
-  /usr/include/c++/15/bits/ostream.tcc \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/parse_numbers.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/sstream.tcc \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/std_thread.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_bvector.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/stl_uninitialized.h \
-  /usr/include/c++/15/bits/stl_vector.h \
-  /usr/include/c++/15/bits/streambuf.tcc \
-  /usr/include/c++/15/bits/streambuf_iterator.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/this_thread_sleep.h \
-  /usr/include/c++/15/bits/unique_ptr.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/vector.tcc \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/chrono \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdint \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/ctime \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/cwctype \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/exception \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/atomicity.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/fstream \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/ios \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/istream \
-  /usr/include/c++/15/limits \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/ostream \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/ratio \
-  /usr/include/c++/15/sstream \
-  /usr/include/c++/15/stdexcept \
-  /usr/include/c++/15/streambuf \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/system_error \
-  /usr/include/c++/15/thread \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/typeinfo \
-  /usr/include/c++/15/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdint.h
-
-CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/carbonqt_cli.cpp \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
-  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/int-ll64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/types.h \
-  /usr/include/asm/bitsperlong.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/posix_types.h \
-  /usr/include/asm/types.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/messages_members.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h \
-  /usr/include/c++/15/aarch64-redhat-linux/bits/time_members.h \
-  /usr/include/c++/15/algorithm \
-  /usr/include/c++/15/backward/binders.h \
-  /usr/include/c++/15/bit \
-  /usr/include/c++/15/bits/algorithmfwd.h \
-  /usr/include/c++/15/bits/alloc_traits.h \
-  /usr/include/c++/15/bits/allocator.h \
-  /usr/include/c++/15/bits/basic_ios.h \
-  /usr/include/c++/15/bits/basic_ios.tcc \
-  /usr/include/c++/15/bits/basic_string.h \
-  /usr/include/c++/15/bits/basic_string.tcc \
-  /usr/include/c++/15/bits/char_traits.h \
-  /usr/include/c++/15/bits/charconv.h \
-  /usr/include/c++/15/bits/chrono.h \
-  /usr/include/c++/15/bits/codecvt.h \
-  /usr/include/c++/15/bits/concept_check.h \
-  /usr/include/c++/15/bits/cpp_type_traits.h \
-  /usr/include/c++/15/bits/cxxabi_forced.h \
-  /usr/include/c++/15/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15/bits/exception.h \
-  /usr/include/c++/15/bits/exception_defines.h \
-  /usr/include/c++/15/bits/exception_ptr.h \
-  /usr/include/c++/15/bits/functexcept.h \
-  /usr/include/c++/15/bits/functional_hash.h \
-  /usr/include/c++/15/bits/hash_bytes.h \
-  /usr/include/c++/15/bits/invoke.h \
-  /usr/include/c++/15/bits/ios_base.h \
-  /usr/include/c++/15/bits/istream.tcc \
-  /usr/include/c++/15/bits/locale_classes.h \
-  /usr/include/c++/15/bits/locale_classes.tcc \
-  /usr/include/c++/15/bits/locale_conv.h \
-  /usr/include/c++/15/bits/locale_facets.h \
-  /usr/include/c++/15/bits/locale_facets.tcc \
-  /usr/include/c++/15/bits/locale_facets_nonio.h \
-  /usr/include/c++/15/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/15/bits/localefwd.h \
-  /usr/include/c++/15/bits/memory_resource.h \
-  /usr/include/c++/15/bits/memoryfwd.h \
-  /usr/include/c++/15/bits/move.h \
-  /usr/include/c++/15/bits/nested_exception.h \
-  /usr/include/c++/15/bits/new_allocator.h \
-  /usr/include/c++/15/bits/ostream.h \
-  /usr/include/c++/15/bits/ostream.tcc \
-  /usr/include/c++/15/bits/ostream_insert.h \
-  /usr/include/c++/15/bits/parse_numbers.h \
-  /usr/include/c++/15/bits/postypes.h \
-  /usr/include/c++/15/bits/predefined_ops.h \
-  /usr/include/c++/15/bits/ptr_traits.h \
-  /usr/include/c++/15/bits/quoted_string.h \
-  /usr/include/c++/15/bits/range_access.h \
-  /usr/include/c++/15/bits/refwrap.h \
-  /usr/include/c++/15/bits/requires_hosted.h \
-  /usr/include/c++/15/bits/sstream.tcc \
-  /usr/include/c++/15/bits/std_abs.h \
-  /usr/include/c++/15/bits/std_thread.h \
-  /usr/include/c++/15/bits/stl_algo.h \
-  /usr/include/c++/15/bits/stl_algobase.h \
-  /usr/include/c++/15/bits/stl_bvector.h \
-  /usr/include/c++/15/bits/stl_construct.h \
-  /usr/include/c++/15/bits/stl_function.h \
-  /usr/include/c++/15/bits/stl_heap.h \
-  /usr/include/c++/15/bits/stl_iterator.h \
-  /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15/bits/stl_pair.h \
-  /usr/include/c++/15/bits/stl_tempbuf.h \
-  /usr/include/c++/15/bits/stl_uninitialized.h \
-  /usr/include/c++/15/bits/stl_vector.h \
-  /usr/include/c++/15/bits/streambuf.tcc \
-  /usr/include/c++/15/bits/streambuf_iterator.h \
-  /usr/include/c++/15/bits/string_view.tcc \
-  /usr/include/c++/15/bits/stringfwd.h \
-  /usr/include/c++/15/bits/this_thread_sleep.h \
-  /usr/include/c++/15/bits/uniform_int_dist.h \
-  /usr/include/c++/15/bits/unique_ptr.h \
-  /usr/include/c++/15/bits/uses_allocator.h \
-  /usr/include/c++/15/bits/uses_allocator_args.h \
-  /usr/include/c++/15/bits/utility.h \
-  /usr/include/c++/15/bits/vector.tcc \
-  /usr/include/c++/15/bits/version.h \
-  /usr/include/c++/15/cctype \
-  /usr/include/c++/15/cerrno \
-  /usr/include/c++/15/chrono \
-  /usr/include/c++/15/clocale \
-  /usr/include/c++/15/concepts \
-  /usr/include/c++/15/cstddef \
-  /usr/include/c++/15/cstdint \
-  /usr/include/c++/15/cstdio \
-  /usr/include/c++/15/cstdlib \
-  /usr/include/c++/15/ctime \
-  /usr/include/c++/15/cwchar \
-  /usr/include/c++/15/cwctype \
-  /usr/include/c++/15/debug/assertions.h \
-  /usr/include/c++/15/debug/debug.h \
-  /usr/include/c++/15/exception \
-  /usr/include/c++/15/ext/alloc_traits.h \
-  /usr/include/c++/15/ext/atomicity.h \
-  /usr/include/c++/15/ext/numeric_traits.h \
-  /usr/include/c++/15/ext/string_conversions.h \
-  /usr/include/c++/15/ext/type_traits.h \
-  /usr/include/c++/15/initializer_list \
-  /usr/include/c++/15/iomanip \
-  /usr/include/c++/15/ios \
-  /usr/include/c++/15/iosfwd \
-  /usr/include/c++/15/iostream \
-  /usr/include/c++/15/istream \
-  /usr/include/c++/15/limits \
-  /usr/include/c++/15/locale \
-  /usr/include/c++/15/new \
-  /usr/include/c++/15/ostream \
-  /usr/include/c++/15/pstl/execution_defs.h \
-  /usr/include/c++/15/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/15/pstl/pstl_config.h \
-  /usr/include/c++/15/ratio \
-  /usr/include/c++/15/sstream \
-  /usr/include/c++/15/stdexcept \
-  /usr/include/c++/15/streambuf \
-  /usr/include/c++/15/string \
-  /usr/include/c++/15/string_view \
-  /usr/include/c++/15/system_error \
-  /usr/include/c++/15/thread \
-  /usr/include/c++/15/tuple \
-  /usr/include/c++/15/type_traits \
-  /usr/include/c++/15/typeinfo \
-  /usr/include/c++/15/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-lp64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/libintl.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/linux/types.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/sqlite3.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h \
-  /usr/lib/gcc/aarch64-redhat-linux/15/include/stdint.h
-
-CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.o: carbonqtapp_autogen/mocs_compilation.cpp \
-  /usr/include/stdc-predef.h
-
-carbonqtapp: /lib/ld-linux-aarch64.so.1 \
-  /lib64/libc.so.6 \
-  /lib64/libgcc_s.so.1 \
-  /lib64/libm.so.6 \
-  /lib64/libmvec.so.1 \
-  /usr/lib64/crt1.o \
-  /usr/lib64/crti.o \
-  /usr/lib64/crtn.o \
-  /usr/lib64/libc.so \
-  /usr/lib64/libm.so \
-  /usr/lib64/libsqlite3.so \
-  /usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o \
-  /usr/lib/gcc/aarch64-redhat-linux/15/crtend.o \
-  /usr/lib/gcc/aarch64-redhat-linux/15/libgcc.a \
-  /usr/lib/gcc/aarch64-redhat-linux/15/libgcc_s.so \
-  /usr/lib/gcc/aarch64-redhat-linux/15/libstdc++.so \
-  /usr/lib64/libQt6Core.so.6.10.2 \
-  /usr/lib64/libb2.so.1 \
-  /usr/lib64/libc_nonshared.a \
-  /usr/lib64/libcap.so.2 \
-  /usr/lib64/libcrypto.so.3 \
-  /usr/lib64/libdouble-conversion.so.3 \
-  /usr/lib64/libglib-2.0.so.0 \
-  /usr/lib64/libgomp.so.1 \
-  /usr/lib64/libicudata.so.77 \
-  /usr/lib64/libicui18n.so.77 \
-  /usr/lib64/libicuuc.so.77 \
-  /usr/lib64/libpcre2-16.so.0 \
-  /usr/lib64/libpcre2-8.so.0 \
-  /usr/lib64/libsystemd.so.0 \
-  /usr/lib64/libz.so.1 \
-  /usr/lib64/libzstd.so.1 \
-  CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.o \
-  CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o \
-  CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o \
-  CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o \
-  CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.o \
-  CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o \
-  CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.o
-
-
-CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.o:
-
-CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.o:
-
-CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.o:
-
-/usr/lib64/libpcre2-8.so.0:
-
-/usr/lib64/libicuuc.so.77:
-
-/usr/lib64/libicui18n.so.77:
-
-/usr/lib64/libglib-2.0.so.0:
-
-/usr/lib64/libdouble-conversion.so.3:
-
-/usr/lib64/libcrypto.so.3:
-
-/usr/lib64/libcap.so.2:
-
-/usr/lib64/libQt6Core.so.6.10.2:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/libstdc++.so:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o:
-
-/usr/lib64/libsqlite3.so:
-
-/usr/lib64/libc.so:
-
-/lib64/libgcc_s.so.1:
-
-carbonqtapp_autogen/mocs_compilation.cpp:
-
-/usr/include/unistd.h:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/c++/15/bits/uniform_int_dist.h:
-
-/usr/include/c++/15/bits/stl_tempbuf.h:
-
-/usr/lib64/libc_nonshared.a:
-
-/usr/include/c++/15/bits/stl_heap.h:
-
-/usr/include/c++/15/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/15/bits/locale_facets_nonio.h:
-
-/usr/include/c++/15/bits/locale_conv.h:
-
-/usr/include/c++/15/algorithm:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/time_members.h:
-
-/usr/include/bits/unistd_ext.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/bits/getopt_core.h:
-
-/usr/include/bits/confname.h:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/include/stdint.h:
-
-/usr/include/stdint.h:
-
-/usr/include/libintl.h:
-
-/usr/include/c++/15/thread:
-
-/usr/include/c++/15/sstream:
-
-/usr/include/c++/15/ratio:
-
-/usr/include/c++/15/chrono:
-
-/usr/include/c++/15/bits/parse_numbers.h:
-
-/usr/include/bits/stdint-least.h:
-
-/usr/include/bits/posix_opt.h:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h:
-
-/usr/include/dirent.h:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/bits/dirent_ext.h:
-
-/usr/include/bits/dirent.h:
-
-/usr/include/sqlite3.h:
-
-/usr/include/c++/15/vector:
-
-/usr/include/c++/15/bits/vector.tcc:
-
-/usr/include/c++/15/bits/stl_vector.h:
-
-/lib64/libc.so.6:
-
-/usr/include/c++/15/bits/stl_uninitialized.h:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/libgcc_s.so:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/include/stddef.h:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/include/stdarg.h:
-
-/usr/include/wctype.h:
-
-/usr/include/time.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/stdio.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/locale.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/features.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/errno.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/15/typeinfo:
-
-/usr/include/c++/15/type_traits:
-
-/usr/include/c++/15/system_error:
-
-/usr/include/c++/15/streambuf:
-
-/usr/include/c++/15/stdexcept:
-
-/usr/include/c++/15/new:
-
-/usr/include/c++/15/istream:
-
-/usr/include/c++/15/iosfwd:
-
-/usr/include/c++/15/fstream:
-
-/usr/include/c++/15/ext/type_traits.h:
-
-/usr/include/c++/15/ext/atomicity.h:
-
-/usr/include/c++/15/ext/alloc_traits.h:
-
-/usr/include/c++/15/debug/debug.h:
-
-/usr/include/c++/15/debug/assertions.h:
-
-/usr/include/c++/15/cwchar:
-
-/usr/include/c++/15/cstdlib:
-
-/usr/include/c++/15/cstdio:
-
-/usr/include/c++/15/cstddef:
-
-/usr/include/c++/15/concepts:
-
-/usr/include/c++/15/clocale:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/include/c++/15/bits/chrono.h:
-
-/usr/include/c++/15/bits/uses_allocator_args.h:
-
-/usr/include/c++/15/bits/stringfwd.h:
-
-/usr/include/c++/15/bits/string_view.tcc:
-
-/usr/include/c++/15/bits/streambuf.tcc:
-
-/usr/include/c++/15/cstdint:
-
-/usr/include/c++/15/bits/stl_pair.h:
-
-/usr/include/c++/15/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/15/bits/stl_algobase.h:
-
-/usr/include/c++/15/ios:
-
-/usr/include/c++/15/bits/std_abs.h:
-
-/usr/include/c++/15/bits/range_access.h:
-
-/usr/include/c++/15/bits/predefined_ops.h:
-
-/usr/include/c++/15/bits/new_allocator.h:
-
-/usr/include/c++/15/bits/unique_ptr.h:
-
-/usr/include/c++/15/bits/move.h:
-
-CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o:
-
-/usr/include/c++/15/bits/nested_exception.h:
-
-/usr/include/c++/15/bits/memoryfwd.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/c++/15/bits/locale_facets.h:
-
-/usr/include/c++/15/bits/locale_classes.tcc:
-
-/usr/include/c++/15/bits/ios_base.h:
-
-/usr/include/c++/15/bits/invoke.h:
-
-/usr/include/c++/15/bits/hash_bytes.h:
-
-/usr/include/c++/15/bits/functexcept.h:
-
-/usr/include/c++/15/bits/fstream.tcc:
-
-/usr/include/c++/15/bits/exception_defines.h:
-
-/usr/include/c++/15/bits/exception.h:
-
-/usr/include/c++/15/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/15/bits/cxxabi_forced.h:
-
-/usr/include/c++/15/bits/basic_string.tcc:
-
-/usr/include/c++/15/ostream:
-
-/usr/include/c++/15/bits/basic_string.h:
-
-/lib64/libm.so.6:
-
-/usr/include/c++/15/pstl/pstl_config.h:
-
-/usr/include/c++/15/bits/basic_ios.tcc:
-
-/usr/include/c++/15/bits/allocator.h:
-
-/usr/include/c++/15/exception:
-
-/usr/include/c++/15/backward/binders.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/os_defines.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/gthr.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/c++io.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/lib64/libsystemd.so.0:
-
-/usr/include/c++/15/bits/ptr_traits.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/gthr-default.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/include/c++/15/bits/stl_function.h:
-
-/usr/include/c++/15/bits/memory_resource.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_inline.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/15/bits/stl_iterator.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/15/bits/requires_hosted.h:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h:
-
-/usr/include/bits/floatn.h:
-
-CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/c++/15/bits/algorithmfwd.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/alloca.h:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ContextSwitchAnalyzer.h:
 
 /usr/share/cmake/Modules/Platform/UnixPaths.cmake:
 
 /usr/share/cmake/Modules/Platform/Linux.cmake:
 
-/usr/include/c++/15/bits/ostream_insert.h:
-
 /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake:
 
 /usr/share/cmake/Modules/Platform/Linux-GNU.cmake:
 
-/usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h:
+/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake:
 
 /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake:
 
 /usr/share/cmake/Modules/Linker/GNU.cmake:
-
-/usr/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
 /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
@@ -2373,121 +619,33 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
-/usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
-/usr/include/c++/15/bits/uses_allocator.h:
-
 /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
 /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
+/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake:
 
 /usr/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /usr/share/cmake/Modules/FindVulkan.cmake:
 
-/usr/include/c++/15/cerrno:
-
 /usr/share/cmake/Modules/FindThreads.cmake:
-
-/usr/include/c++/15/bits/stl_bvector.h:
 
 /usr/share/cmake/Modules/FindPackageMessage.cmake:
 
 /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
 /usr/share/cmake/Modules/FindOpenGL.cmake:
-
-/usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/include/linux/sched/types.h:
-
-/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
 /usr/share/cmake/Modules/Compiler/GNU.cmake:
 
-/usr/include/c++/15/bits/codecvt.h:
-
-/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:
-
-/usr/include/c++/15/limits:
-
-/usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/lib64/libm.so:
-
-/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/usr/include/c++/15/initializer_list:
-
-/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/include/c++/15/bits/locale_classes.h:
-
-/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/libgcc.a:
+/usr/share/cmake/Modules/Compiler/GNU-C.cmake:
 
 /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
 
 /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
-/usr/include/c++/15/cwctype:
-
-/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:
-
-/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
-
 /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
-
-/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/usr/include/c++/15/bits/cpp_type_traits.h:
-
-/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /usr/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
@@ -2495,19 +653,11 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
-/usr/lib64/libgomp.so.1:
-
-/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
-
 /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
 /usr/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/usr/share/cmake/Modules/CMakeCInformation.cmake:
 
 /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake:
 
@@ -2515,27 +665,13 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/lib64/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake:
 
-/usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
-
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake:
 
-/usr/include/c++/15/string:
-
-/usr/include/bits/timesize.h:
-
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaAdditionalTargetInfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -2543,17 +679,9 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/lib64/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake:
 
-/usr/include/c++/15/cctype:
-
-/usr/include/c++/15/bits/char_traits.h:
-
 /usr/lib64/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15/pstl/execution_defs.h:
-
 /usr/lib64/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
@@ -2563,13 +691,15 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/15/tuple:
+/usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
+
+/usr/lib64/cmake/Qt6Quick/Qt6QuickTargets.cmake:
+
+/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/wchar.h:
 
 /usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake:
 
@@ -2581,8 +711,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
@@ -2591,17 +719,13 @@ CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/share/cmake/Modules/CheckIncludeFile.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake:
-
-CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake:
 
@@ -2613,8 +737,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets-relwithdebinfo.cmake:
@@ -2624,8 +746,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake:
-
-/usr/include/bits/uintn-identity.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
 
@@ -2637,21 +757,13 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusMacros.cmake:
 
-/usr/include/c++/15/iomanip:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h:
-
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
 
@@ -2659,11 +771,7 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake:
 
-/usr/include/bits/timex.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/types/struct_timeval.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginAdditionalTargetInfo.cmake:
 
@@ -2672,8 +780,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
-
-/usr/include/c++/15/locale:
 
 /usr/lib64/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
@@ -2701,15 +807,11 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake:
 
-/usr/include/c++/15/bits/std_thread.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6NetworkPlugins.cmake:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/src/ContextSwitchAnalyzer.cpp:
-
-/usr/include/linux/limits.h:
 
 /usr/lib64/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptDependencies.cmake:
 
@@ -2725,21 +827,13 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
-/usr/include/wchar.h:
-
 /usr/lib64/cmake/Qt6/FindWrapAtomic.cmake:
-
-/usr/include/stdlib.h:
-
-/usr/include/c++/15/bits/locale_facets.tcc:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake:
-
-/usr/include/bits/byteswap.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
 
@@ -2748,8 +842,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaVersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/libzstd.so.1:
 
 /usr/lib64/cmake/Qt6Quick/Qt6QuickDependencies.cmake:
 
@@ -2763,23 +855,11 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
-/usr/include/c++/15/bits/ostream.tcc:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
-
-/usr/include/bits/environments.h:
-
-/usr/include/c++/15/bits/sstream.tcc:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
-
-/usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6Quick/Qt6QuickTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -2803,16 +883,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
-
-/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersionImpl.cmake:
-
-/usr/include/c++/15/bits/ostream.h:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
@@ -2820,8 +890,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake:
-
-/usr/include/bits/types/wint_t.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginConfig.cmake:
 
@@ -2836,8 +904,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginAdditionalTargetInfo.cmake:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
@@ -2867,8 +933,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake:
 
-/usr/include/bits/time.h:
-
 /usr/lib64/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
@@ -2897,37 +961,17 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
 
-/usr/include/bits/types/FILE.h:
-
 /usr/lib64/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/15/bits/utility.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6/FindWrapOpenGL.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginConfig.cmake:
-
-/usr/include/bits/locale.h:
-
-/usr/lib64/cmake/Qt6/FindWrapVulkanHeaders.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake:
-
-/usr/lib64/cmake/Qt6/QtFeature.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6/QtPublicGitHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
 
@@ -2936,10 +980,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/bits/stdint-intn.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake:
 
@@ -2953,8 +993,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
-/usr/include/c++/15/bits/charconv.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake:
@@ -2967,15 +1005,37 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6/QtInstallPaths.cmake:
 
+/usr/lib64/cmake/Qt6/FindWrapVulkanHeaders.cmake:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginConfig.cmake:
+
+/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
 
-/usr/include/pthread.h:
+/usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake:
+
+/usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake:
 
@@ -2995,8 +1055,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
-
 /usr/lib64/cmake/Qt6/QtPublicTestHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
@@ -3007,8 +1065,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
@@ -3017,23 +1073,35 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake:
 
-/usr/include/c++/15/string_view:
-
 /usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:
-
-/usr/lib64/crt1.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/include/bits/types.h:
+/usr/lib64/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
+
+/usr/lib64/cmake/Qt6/FindWrapOpenGL.cmake:
+
+/usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersionImpl.cmake:
+
+/usr/share/cmake/Modules/MacroAddFileDependencies.cmake:
+
+/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginConfig.cmake:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake:
+
+/usr/lib64/cmake/Qt6/QtFeature.cmake:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib64/cmake/Qt6/QtPublicGitHelpers.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/ctype_base.h:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
 
@@ -3053,11 +1121,7 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
-/usr/include/bits/atomic_wide_counter.h:
-
 /usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:
-
-/usr/include/bits/long-double.h:
 
 /usr/lib64/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake:
 
@@ -3071,8 +1135,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6/Qt6ConfigVersion.cmake:
 
-/usr/include/c++/15/bits/refwrap.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake:
@@ -3081,8 +1143,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
 
-/usr/include/sched.h:
-
 /usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake:
 
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
@@ -3090,8 +1150,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15/bits/basic_ios.h:
 
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
@@ -3103,26 +1161,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
 
-/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
-
-/usr/lib64/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
-
-/usr/include/c++/15/bits/postypes.h:
-
-/usr/lib64/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake:
-
-/usr/lib64/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
-
-/usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginConfig.cmake:
-
-/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/usr/lib64/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets-relwithdebinfo.cmake:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in:
@@ -3130,8 +1168,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o:
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets-relwithdebinfo.cmake:
 
@@ -3151,13 +1187,9 @@ CMakeFiles/3.31.11/CMakeSystem.cmake:
 
 /usr/lib64/cmake/Qt6/QtPublicCMakeHelpers.cmake:
 
-/usr/lib64/libicudata.so.77:
-
 /usr/lib64/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
-
-/usr/include/c++/15/bits/istream.tcc:
 
 /usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
@@ -3177,14 +1209,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
 
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
-
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginAdditionalTargetInfo.cmake:
-
 /usr/share/cmake/Modules/CheckLibraryExists.cmake:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
@@ -3199,10 +1223,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake:
 
-/lib64/libmvec.so.1:
-
-/usr/include/c++/15/ext/string_conversions.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
@@ -3214,8 +1234,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/lib64/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersion.cmake:
-
-/usr/include/bits/cpu-set.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
@@ -3249,15 +1267,15 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets.cmake:
 
-/usr/include/c++/15/bits/localefwd.h:
+/usr/lib64/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
+
+/usr/lib64/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake:
 
 /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake:
 
@@ -3266,8 +1284,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Network/Qt6NetworkDependencies.cmake:
-
-/usr/include/asm-generic/bitsperlong.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake:
 
@@ -3285,8 +1301,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/lib64/crtn.o:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake:
@@ -3295,29 +1309,19 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
 
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake:
 
-/usr/include/bits/struct_mutex.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15/bits/alloc_traits.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets-relwithdebinfo.cmake:
 
-/usr/include/asm-generic/posix_types.h:
-
 /usr/lib64/cmake/Qt6/QtPublicAndroidHelpers.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
 
@@ -3341,13 +1345,13 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfig.cmake:
 
+/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:
+
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginTargets.cmake:
-
-CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6LabsSynchronizerpluginConfig.cmake:
 
@@ -3379,15 +1383,11 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginAdditionalTargetInfo.cmake:
 
-/usr/include/bits/stdint-uintn.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets.cmake:
-
-/usr/include/c++/15/aarch64-redhat-linux/bits/basic_file.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginAdditionalTargetInfo.cmake:
 
@@ -3401,23 +1401,17 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets-relwithdebinfo.cmake:
 
-/usr/include/asm-generic/int-ll64.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-relwithdebinfo.cmake:
 
-/usr/include/bits/stdlib-float.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersion.cmake:
-
-/usr/lib/gcc/aarch64-redhat-linux/15/crtbegin.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginConfig.cmake:
 
@@ -3441,8 +1435,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginAdditionalTargetInfo.cmake:
 
-/usr/include/bits/errno.h:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QmlProperties.cmake:
 
 /usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
@@ -3452,8 +1444,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginConfig.cmake:
-
-/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-relwithdebinfo.cmake:
 
@@ -3475,13 +1465,9 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginAdditionalTargetInfo.cmake:
 
-/usr/include/bits/select.h:
-
 /usr/lib64/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginConfig.cmake:
-
-/lib/ld-linux-aarch64.so.1:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets-relwithdebinfo.cmake:
 
@@ -3505,10 +1491,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/15/aarch64-redhat-linux/bits/messages_members.h:
-
-/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets.cmake:
@@ -3529,15 +1511,11 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15/bits/exception_ptr.h:
-
 /usr/lib64/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginConfig.cmake:
-
-/usr/include/c++/15/bits/quoted_string.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake:
 
@@ -3571,8 +1549,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginConfig.cmake:
@@ -3582,8 +1558,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets.cmake:
-
-/usr/include/ctype.h:
 
 /usr/share/cmake/Modules/CMakeGenericSystem.cmake:
 
@@ -3595,11 +1569,7 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginConfig.cmake:
 
-/usr/include/c++/15/ext/numeric_traits.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets.cmake:
-
-/usr/include/bits/local_lim.h:
 
 /usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
@@ -3609,7 +1579,7 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlTargets.cmake:
 
-/usr/include/c++/15/bits/concept_check.h:
+/usr/share/cmake/Modules/Linker/GNU-C.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake:
 
@@ -3622,8 +1592,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 /usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets.cmake:
-
-/usr/include/c++/15/bits/this_thread_sleep.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets-relwithdebinfo.cmake:
 
@@ -3641,27 +1609,17 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/15/bits/stl_construct.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersion.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets-relwithdebinfo.cmake:
 
-/usr/include/bits/waitflags.h:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets.cmake:
 
-/usr/include/gnu/stubs-lp64.h:
-
-/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake:
-
-/usr/include/c++/15/iostream:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -3671,15 +1629,7 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15/bits/stl_algo.h:
-
-/usr/include/bits/types/time_t.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets.cmake:
 
@@ -3689,15 +1639,11 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingAdditionalTargetInfo.cmake:
-
-/usr/include/c++/15/bits/functional_hash.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake:
 
@@ -3710,12 +1656,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 /usr/lib64/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginAdditionalTargetInfo.cmake:
-
-/usr/lib64/crti.o:
-
-/usr/include/c++/15/bit:
-
-/usr/include/bits/types/__fpos64_t.h:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets.cmake:
 
@@ -3737,10 +1677,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake:
 
-/usr/lib64/libz.so.1:
-
-/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
 /usr/lib64/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginAdditionalTargetInfo.cmake:
@@ -3755,15 +1691,11 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets.cmake:
 
-/usr/include/c++/15/pstl/glue_algorithm_defs.h:
-
 /usr/lib64/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginTargets-relwithdebinfo.cmake:
 
@@ -3775,11 +1707,7 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6Qml/Qt6QmlMacros.cmake:
 
-/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:
-
 /usr/lib64/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake:
-
-/usr/include/sys/cdefs.h:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake:
 
@@ -3793,10 +1721,6 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake:
 
-/usr/lib64/libpcre2-16.so.0:
-
-/usr/include/c++/15/ctime:
-
 /usr/lib64/cmake/Qt6QmlIntegration/Qt6QmlIntegrationTargets.cmake:
 
 /usr/lib64/cmake/Qt6QmlIntegration/Qt6QmlIntegrationVersionlessAliasTargets.cmake:
@@ -3807,13 +1731,13 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaTargets-relwithdebinfo.cmake:
 
+CMakeFiles/3.31.11/CMakeCCompiler.cmake:
+
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersionImpl.cmake:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsDependencies.cmake:
-
-/usr/include/c++/15/bits/streambuf_iterator.h:
 
 /usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
@@ -3823,13 +1747,13 @@ CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsTargets.cmake:
 
+/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake:
+
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersionImpl.cmake:
 
 /usr/lib64/cmake/Qt6QmlModels/Qt6QmlModelsVersionlessAliasTargets.cmake:
 
 /usr/lib64/cmake/Qt6QmlTools/Qt6QmlToolsTargets-relwithdebinfo.cmake:
-
-/usr/lib64/libb2.so.1:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake:
 

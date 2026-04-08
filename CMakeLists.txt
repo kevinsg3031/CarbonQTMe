@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(frontend LANGUAGES CXX)
+project(frontend LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -63,6 +63,7 @@ qt_add_qml_module(appMyApp
         components/Theme.qml
     RESOURCES
         assets/icons/refresh.svg
+        SOURCES third_party/sqlite3/sqlite3.h
 )
 
 target_link_libraries(appMyApp

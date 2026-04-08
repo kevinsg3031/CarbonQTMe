@@ -29,7 +29,7 @@ appMyApp: \
   CMakeFiles/appMyApp.dir/build/.qt/rcc/qrc_appMyApp_raw_qml_0.cpp.o \
   CMakeFiles/appMyApp.dir/build/.qt/rcc/qrc_appMyApp_raw_res_0.cpp.o \
   /usr/lib64/libQt6Quick.so.6.10.2 \
-  /usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libsqlite3.so \
+  libsqlite3.a \
   /usr/lib64/libQt6OpenGL.so.6.10.2 \
   /usr/lib64/libQt6Gui.so.6.10.2 \
   /usr/lib64/libGLX.so \
@@ -192,7 +192,7 @@ CMakeFiles/appMyApp.dir/build/.qt/rcc/qrc_appMyApp_raw_res_0.cpp.o:
 
 /usr/lib64/libQt6Quick.so.6.10.2:
 
-/usr/lib/gcc/aarch64-redhat-linux/15/../../../../lib64/libsqlite3.so:
+libsqlite3.a:
 
 /usr/lib64/libQt6OpenGL.so.6.10.2:
 

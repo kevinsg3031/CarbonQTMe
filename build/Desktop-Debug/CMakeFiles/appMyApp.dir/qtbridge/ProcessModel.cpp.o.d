@@ -306,4 +306,4 @@ CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.o: \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
- /usr/include/sqlite3.h
+ /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h

@@ -169,6 +169,6 @@ CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o: \
  /usr/include/linux/close_range.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
- /usr/include/sqlite3.h \
+ /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h

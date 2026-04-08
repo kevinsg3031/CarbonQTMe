@@ -21,6 +21,7 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/MonitorController.h \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.cpp \
   /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.h \
+  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -411,7 +412,6 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/sched.h \
-  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -1743,6 +1743,8 @@ appMyApp_autogen/timestamp: /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/CMake
 
 /usr/include/c++/15/stdexcept:
 
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h:
+
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake:
 
 /usr/include/c++/15/set:
@@ -2275,10 +2277,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/ProcessModel.cpp:
 
-/usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
 /usr/include/bits/typesizes.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
@@ -2296,6 +2294,26 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/include/qt6/QtCore/QObject:
 
 /usr/include/qt6/QtCore/q23utility.h:
+
+/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake:
+
+/usr/include/pthread.h:
+
+/usr/lib64/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
+
+/usr/include/c++/15/pstl/execution_defs.h:
+
+/usr/include/qt6/QtCore/qrefcount.h:
+
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/EnergyController.h:
+
+/usr/lib64/cmake/Qt6/QtPublicWindowsHelpers.cmake:
+
+/usr/include/c++/15/bits/allocator.h:
+
+/usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/types/locale_t.h:
 
@@ -2327,25 +2345,9 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake:
+/usr/lib64/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-relwithdebinfo.cmake:
 
-/usr/include/pthread.h:
-
-/usr/lib64/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
-
-/usr/include/c++/15/pstl/execution_defs.h:
-
-/usr/include/qt6/QtCore/qrefcount.h:
-
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/EnergyController.h:
-
-/usr/lib64/cmake/Qt6/QtPublicWindowsHelpers.cmake:
-
-/usr/include/c++/15/bits/allocator.h:
-
-/usr/lib64/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/bits/types/__sigset_t.h:
+/usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
 
 /usr/include/bits/thread-shared-types.h:
 
@@ -2391,7 +2393,9 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/c++/15/tr1/poly_laguerre.tcc:
+/usr/include/c++/15/bits/specfun.h:
+
+/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -2399,15 +2403,13 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15/bits/charconv.h:
 
+/usr/include/c++/15/tr1/poly_laguerre.tcc:
+
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake:
 
 /usr/lib64/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in:
-
-/usr/include/c++/15/bits/specfun.h:
-
-/usr/include/bits/types/__fpos_t.h:
 
 /usr/lib64/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake:
 
@@ -2845,6 +2847,8 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qsystemdetection.h:
 
+/usr/include/qt6/QtCore/qtclasshelpermacros.h:
+
 /usr/include/gnu/stubs.h:
 
 /usr/include/qt6/QtCore/qtconfigmacros.h:
@@ -2917,12 +2921,6 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qyieldcpu.h:
 
-/usr/include/qt6/QtCore/qtclasshelpermacros.h:
-
-/usr/include/sqlite3.h:
-
-/usr/include/sys/types.h:
-
 /usr/include/c++/15/tr1/ell_integral.tcc:
 
 /usr/include/stdc-predef.h:
@@ -2948,6 +2946,8 @@ CMakeFiles/3.31.11/CMakeCXXCompiler.cmake:
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/lib64/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/sys/types.h:
 
 /usr/include/c++/15/tr1/hypergeometric.tcc:
 

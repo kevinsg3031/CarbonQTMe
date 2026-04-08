@@ -354,7 +354,7 @@ CMakeFiles/appMyApp.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/qstring.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/ProcessTracker.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/DataLogger.h \
- /usr/include/sqlite3.h \
+ /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/third_party/sqlite3/sqlite3.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/qtbridge/EnergyController.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/EnergyEstimator.h \
  /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/backend/include/SystemMonitor.h

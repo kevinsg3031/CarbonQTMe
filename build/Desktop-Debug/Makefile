@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sqlite3
+
+# Build rule for target.
+sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sqlite3
+.PHONY : sqlite3
+
+# fast build rule for target.
+sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/build
+.PHONY : sqlite3/fast
+
+#=============================================================================
 # Target rules for targets named appMyApp
 
 # Build rule for target.
@@ -323,6 +336,32 @@ all_aotstats: cmake_check_build_system
 all_aotstats/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
 .PHONY : all_aotstats/fast
+
+#=============================================================================
+# Target rules for targets named sqlite3_autogen_timestamp_deps
+
+# Build rule for target.
+sqlite3_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sqlite3_autogen_timestamp_deps
+.PHONY : sqlite3_autogen_timestamp_deps
+
+# fast build rule for target.
+sqlite3_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build.make CMakeFiles/sqlite3_autogen_timestamp_deps.dir/build
+.PHONY : sqlite3_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named sqlite3_autogen
+
+# Build rule for target.
+sqlite3_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sqlite3_autogen
+.PHONY : sqlite3_autogen
+
+# fast build rule for target.
+sqlite3_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3_autogen.dir/build.make CMakeFiles/sqlite3_autogen.dir/build
+.PHONY : sqlite3_autogen/fast
 
 #=============================================================================
 # Target rules for targets named appMyApp_autogen_timestamp_deps
@@ -1063,6 +1102,54 @@ qtbridge/ProcessModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/qtbridge/ProcessModel.cpp.s
 .PHONY : qtbridge/ProcessModel.cpp.s
 
+sqlite3_autogen/mocs_compilation.o: sqlite3_autogen/mocs_compilation.cpp.o
+.PHONY : sqlite3_autogen/mocs_compilation.o
+
+# target to build an object file
+sqlite3_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/sqlite3_autogen/mocs_compilation.cpp.o
+.PHONY : sqlite3_autogen/mocs_compilation.cpp.o
+
+sqlite3_autogen/mocs_compilation.i: sqlite3_autogen/mocs_compilation.cpp.i
+.PHONY : sqlite3_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sqlite3_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/sqlite3_autogen/mocs_compilation.cpp.i
+.PHONY : sqlite3_autogen/mocs_compilation.cpp.i
+
+sqlite3_autogen/mocs_compilation.s: sqlite3_autogen/mocs_compilation.cpp.s
+.PHONY : sqlite3_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sqlite3_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/sqlite3_autogen/mocs_compilation.cpp.s
+.PHONY : sqlite3_autogen/mocs_compilation.cpp.s
+
+third_party/sqlite3/sqlite3.o: third_party/sqlite3/sqlite3.c.o
+.PHONY : third_party/sqlite3/sqlite3.o
+
+# target to build an object file
+third_party/sqlite3/sqlite3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/third_party/sqlite3/sqlite3.c.o
+.PHONY : third_party/sqlite3/sqlite3.c.o
+
+third_party/sqlite3/sqlite3.i: third_party/sqlite3/sqlite3.c.i
+.PHONY : third_party/sqlite3/sqlite3.i
+
+# target to preprocess a source file
+third_party/sqlite3/sqlite3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/third_party/sqlite3/sqlite3.c.i
+.PHONY : third_party/sqlite3/sqlite3.c.i
+
+third_party/sqlite3/sqlite3.s: third_party/sqlite3/sqlite3.c.s
+.PHONY : third_party/sqlite3/sqlite3.s
+
+# target to generate assembly for a file
+third_party/sqlite3/sqlite3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/third_party/sqlite3/sqlite3.c.s
+.PHONY : third_party/sqlite3/sqlite3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1089,8 +1176,11 @@ help:
 	@echo "... carbonqtapp_autogen_timestamp_deps"
 	@echo "... generate_qmlls_build_ini_file"
 	@echo "... module_appMyApp_aotstats_target"
+	@echo "... sqlite3_autogen"
+	@echo "... sqlite3_autogen_timestamp_deps"
 	@echo "... appMyApp"
 	@echo "... carbonqtapp"
+	@echo "... sqlite3"
 	@echo "... appMyApp_autogen/mocs_compilation.o"
 	@echo "... appMyApp_autogen/mocs_compilation.i"
 	@echo "... appMyApp_autogen/mocs_compilation.s"
@@ -1175,6 +1265,12 @@ help:
 	@echo "... qtbridge/ProcessModel.o"
 	@echo "... qtbridge/ProcessModel.i"
 	@echo "... qtbridge/ProcessModel.s"
+	@echo "... sqlite3_autogen/mocs_compilation.o"
+	@echo "... sqlite3_autogen/mocs_compilation.i"
+	@echo "... sqlite3_autogen/mocs_compilation.s"
+	@echo "... third_party/sqlite3/sqlite3.o"
+	@echo "... third_party/sqlite3/sqlite3.i"
+	@echo "... third_party/sqlite3/sqlite3.s"
 .PHONY : help
 
 
