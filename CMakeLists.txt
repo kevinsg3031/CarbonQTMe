@@ -34,7 +34,7 @@ target_include_directories(appMyApp PRIVATE
     third_party/sqlite3
 )
 
-add_executable(carbonqt
+add_executable(carbonqtapp
     carbonqt_cli.cpp
 
     backend/src/SystemMonitor.cpp
@@ -69,13 +69,13 @@ target_link_libraries(appMyApp
     PRIVATE Qt6::Quick sqlite3
 )
 
-target_include_directories(carbonqt PRIVATE
+target_include_directories(carbonqtapp PRIVATE
     backend/include
     backend/src
     third_party/sqlite3
 )
 
-target_link_libraries(carbonqt
+target_link_libraries(carbonqtapp
     Qt6::Core
     sqlite3
 )

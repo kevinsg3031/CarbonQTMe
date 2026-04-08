@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyApp/">
+    <file alias="Main.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/Main.qml</file>
+    <file alias="pages/Dashboard.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/pages/Dashboard.qml</file>
+    <file alias="pages/Processes.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/pages/Processes.qml</file>
+    <file alias="pages/EnergyEstimator.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/pages/EnergyEstimator.qml</file>
+    <file alias="components/SidebarButton.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/SidebarButton.qml</file>
+    <file alias="components/StatCard.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/StatCard.qml</file>
+    <file alias="components/DoughnutStat.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/DoughnutStat.qml</file>
+    <file alias="components/PidThreadsChart.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/PidThreadsChart.qml</file>
+    <file alias="components/TableHeader.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/TableHeader.qml</file>
+    <file alias="components/RingChart.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/RingChart.qml</file>
+    <file alias="components/Theme.qml">/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/components/Theme.qml</file>
+  </qresource>
+</RCC>
+

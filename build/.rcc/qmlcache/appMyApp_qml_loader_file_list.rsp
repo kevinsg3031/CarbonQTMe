@@ -1,0 +1,17 @@
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/.qt/rcc/qmake_MyApp.qrc
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/.qt/rcc/appMyApp_raw_qml_0.qrc
+--resource
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/.qt/rcc/appMyApp_raw_res_0.qrc
+/qt/qml/MyApp/Main.qml
+/qt/qml/MyApp/pages/Dashboard.qml
+/qt/qml/MyApp/pages/Processes.qml
+/qt/qml/MyApp/pages/EnergyEstimator.qml
+/qt/qml/MyApp/components/SidebarButton.qml
+/qt/qml/MyApp/components/StatCard.qml
+/qt/qml/MyApp/components/DoughnutStat.qml
+/qt/qml/MyApp/components/PidThreadsChart.qml
+/qt/qml/MyApp/components/TableHeader.qml
+/qt/qml/MyApp/components/RingChart.qml
+/qt/qml/MyApp/components/Theme.qml

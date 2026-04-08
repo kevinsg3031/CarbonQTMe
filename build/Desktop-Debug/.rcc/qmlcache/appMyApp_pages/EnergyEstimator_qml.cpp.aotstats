@@ -15,18 +15,34 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 23,
+                            "column": 16,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
+                            "functionName": "width",
                             "line": 9,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 22,
                             "durationMicroseconds": 0,
-                            "functionName": "preferredWidth",
-                            "line": 25,
+                            "functionName": "top",
+                            "line": 10,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 11,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 12,
                             "message": ""
                         },
                         {
@@ -34,7 +50,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 30,
+                            "line": 38,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -42,7 +58,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 37,
+                            "line": 45,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -50,7 +66,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 52,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -58,7 +74,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 59,
+                            "line": 66,
                             "message": ""
                         },
                         {
@@ -66,7 +82,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 63,
+                            "line": 70,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -74,7 +90,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 67,
+                            "line": 74,
                             "message": ""
                         },
                         {
@@ -82,7 +98,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "cpuValue",
-                            "line": 73,
+                            "line": 80,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -90,7 +106,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "ramValue",
-                            "line": 74,
+                            "line": 81,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -98,7 +114,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 75,
+                            "line": 82,
                             "message": ""
                         },
                         {
@@ -106,7 +122,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 80,
+                            "line": 87,
                             "message": ""
                         },
                         {
@@ -114,7 +130,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 105,
+                            "line": 111,
                             "message": "Cannot access value for name energyBackend"
                         },
                         {
@@ -122,7 +138,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 113,
+                            "line": 118,
                             "message": "Cannot access value for name energyBackend"
                         }
                     ],

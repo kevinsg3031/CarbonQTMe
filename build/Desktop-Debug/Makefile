@@ -130,17 +130,17 @@ appMyApp/fast:
 .PHONY : appMyApp/fast
 
 #=============================================================================
-# Target rules for targets named carbonqt
+# Target rules for targets named carbonqtapp
 
 # Build rule for target.
-carbonqt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqt
-.PHONY : carbonqt
+carbonqtapp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqtapp
+.PHONY : carbonqtapp
 
 # fast build rule for target.
-carbonqt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/build
-.PHONY : carbonqt/fast
+carbonqtapp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/build
+.PHONY : carbonqtapp/fast
 
 #=============================================================================
 # Target rules for targets named appMyApp_qmltyperegistration
@@ -351,30 +351,30 @@ appMyApp_autogen/fast:
 .PHONY : appMyApp_autogen/fast
 
 #=============================================================================
-# Target rules for targets named carbonqt_autogen_timestamp_deps
+# Target rules for targets named carbonqtapp_autogen_timestamp_deps
 
 # Build rule for target.
-carbonqt_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqt_autogen_timestamp_deps
-.PHONY : carbonqt_autogen_timestamp_deps
+carbonqtapp_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqtapp_autogen_timestamp_deps
+.PHONY : carbonqtapp_autogen_timestamp_deps
 
 # fast build rule for target.
-carbonqt_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt_autogen_timestamp_deps.dir/build.make CMakeFiles/carbonqt_autogen_timestamp_deps.dir/build
-.PHONY : carbonqt_autogen_timestamp_deps/fast
+carbonqtapp_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/build.make CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir/build
+.PHONY : carbonqtapp_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named carbonqt_autogen
+# Target rules for targets named carbonqtapp_autogen
 
 # Build rule for target.
-carbonqt_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqt_autogen
-.PHONY : carbonqt_autogen
+carbonqtapp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carbonqtapp_autogen
+.PHONY : carbonqtapp_autogen
 
 # fast build rule for target.
-carbonqt_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt_autogen.dir/build.make CMakeFiles/carbonqt_autogen.dir/build
-.PHONY : carbonqt_autogen/fast
+carbonqtapp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp_autogen.dir/build.make CMakeFiles/carbonqtapp_autogen.dir/build
+.PHONY : carbonqtapp_autogen/fast
 
 appMyApp_autogen/mocs_compilation.o: appMyApp_autogen/mocs_compilation.cpp.o
 .PHONY : appMyApp_autogen/mocs_compilation.o
@@ -430,7 +430,7 @@ backend/src/ContextSwitchAnalyzer.o: backend/src/ContextSwitchAnalyzer.cpp.o
 # target to build an object file
 backend/src/ContextSwitchAnalyzer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ContextSwitchAnalyzer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.o
 .PHONY : backend/src/ContextSwitchAnalyzer.cpp.o
 
 backend/src/ContextSwitchAnalyzer.i: backend/src/ContextSwitchAnalyzer.cpp.i
@@ -439,7 +439,7 @@ backend/src/ContextSwitchAnalyzer.i: backend/src/ContextSwitchAnalyzer.cpp.i
 # target to preprocess a source file
 backend/src/ContextSwitchAnalyzer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ContextSwitchAnalyzer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.i
 .PHONY : backend/src/ContextSwitchAnalyzer.cpp.i
 
 backend/src/ContextSwitchAnalyzer.s: backend/src/ContextSwitchAnalyzer.cpp.s
@@ -448,7 +448,7 @@ backend/src/ContextSwitchAnalyzer.s: backend/src/ContextSwitchAnalyzer.cpp.s
 # target to generate assembly for a file
 backend/src/ContextSwitchAnalyzer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ContextSwitchAnalyzer.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ContextSwitchAnalyzer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ContextSwitchAnalyzer.cpp.s
 .PHONY : backend/src/ContextSwitchAnalyzer.cpp.s
 
 backend/src/DataLogger.o: backend/src/DataLogger.cpp.o
@@ -457,7 +457,7 @@ backend/src/DataLogger.o: backend/src/DataLogger.cpp.o
 # target to build an object file
 backend/src/DataLogger.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/DataLogger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.o
 .PHONY : backend/src/DataLogger.cpp.o
 
 backend/src/DataLogger.i: backend/src/DataLogger.cpp.i
@@ -466,7 +466,7 @@ backend/src/DataLogger.i: backend/src/DataLogger.cpp.i
 # target to preprocess a source file
 backend/src/DataLogger.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/DataLogger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.i
 .PHONY : backend/src/DataLogger.cpp.i
 
 backend/src/DataLogger.s: backend/src/DataLogger.cpp.s
@@ -475,7 +475,7 @@ backend/src/DataLogger.s: backend/src/DataLogger.cpp.s
 # target to generate assembly for a file
 backend/src/DataLogger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/DataLogger.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/DataLogger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/DataLogger.cpp.s
 .PHONY : backend/src/DataLogger.cpp.s
 
 backend/src/EnergyEstimator.o: backend/src/EnergyEstimator.cpp.o
@@ -484,7 +484,7 @@ backend/src/EnergyEstimator.o: backend/src/EnergyEstimator.cpp.o
 # target to build an object file
 backend/src/EnergyEstimator.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/EnergyEstimator.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/EnergyEstimator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.o
 .PHONY : backend/src/EnergyEstimator.cpp.o
 
 backend/src/EnergyEstimator.i: backend/src/EnergyEstimator.cpp.i
@@ -493,7 +493,7 @@ backend/src/EnergyEstimator.i: backend/src/EnergyEstimator.cpp.i
 # target to preprocess a source file
 backend/src/EnergyEstimator.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/EnergyEstimator.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/EnergyEstimator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.i
 .PHONY : backend/src/EnergyEstimator.cpp.i
 
 backend/src/EnergyEstimator.s: backend/src/EnergyEstimator.cpp.s
@@ -502,7 +502,7 @@ backend/src/EnergyEstimator.s: backend/src/EnergyEstimator.cpp.s
 # target to generate assembly for a file
 backend/src/EnergyEstimator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/EnergyEstimator.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/EnergyEstimator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/EnergyEstimator.cpp.s
 .PHONY : backend/src/EnergyEstimator.cpp.s
 
 backend/src/ProcessTracker.o: backend/src/ProcessTracker.cpp.o
@@ -511,7 +511,7 @@ backend/src/ProcessTracker.o: backend/src/ProcessTracker.cpp.o
 # target to build an object file
 backend/src/ProcessTracker.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ProcessTracker.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.o
 .PHONY : backend/src/ProcessTracker.cpp.o
 
 backend/src/ProcessTracker.i: backend/src/ProcessTracker.cpp.i
@@ -520,7 +520,7 @@ backend/src/ProcessTracker.i: backend/src/ProcessTracker.cpp.i
 # target to preprocess a source file
 backend/src/ProcessTracker.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ProcessTracker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.i
 .PHONY : backend/src/ProcessTracker.cpp.i
 
 backend/src/ProcessTracker.s: backend/src/ProcessTracker.cpp.s
@@ -529,7 +529,7 @@ backend/src/ProcessTracker.s: backend/src/ProcessTracker.cpp.s
 # target to generate assembly for a file
 backend/src/ProcessTracker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/ProcessTracker.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/ProcessTracker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/ProcessTracker.cpp.s
 .PHONY : backend/src/ProcessTracker.cpp.s
 
 backend/src/SystemMonitor.o: backend/src/SystemMonitor.cpp.o
@@ -538,7 +538,7 @@ backend/src/SystemMonitor.o: backend/src/SystemMonitor.cpp.o
 # target to build an object file
 backend/src/SystemMonitor.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/SystemMonitor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.o
 .PHONY : backend/src/SystemMonitor.cpp.o
 
 backend/src/SystemMonitor.i: backend/src/SystemMonitor.cpp.i
@@ -547,7 +547,7 @@ backend/src/SystemMonitor.i: backend/src/SystemMonitor.cpp.i
 # target to preprocess a source file
 backend/src/SystemMonitor.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/SystemMonitor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.i
 .PHONY : backend/src/SystemMonitor.cpp.i
 
 backend/src/SystemMonitor.s: backend/src/SystemMonitor.cpp.s
@@ -556,7 +556,7 @@ backend/src/SystemMonitor.s: backend/src/SystemMonitor.cpp.s
 # target to generate assembly for a file
 backend/src/SystemMonitor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/backend/src/SystemMonitor.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/backend/src/SystemMonitor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/backend/src/SystemMonitor.cpp.s
 .PHONY : backend/src/SystemMonitor.cpp.s
 
 build/Desktop-Debug/.qt/rcc/qrc_appMyApp_raw_qml_0.o: build/Desktop-Debug/.qt/rcc/qrc_appMyApp_raw_qml_0.cpp.o
@@ -919,36 +919,12 @@ build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appMyApp.dir/build.make CMakeFiles/appMyApp.dir/build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.cpp.s
 .PHONY : build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.cpp.s
 
-carbonqt_autogen/mocs_compilation.o: carbonqt_autogen/mocs_compilation.cpp.o
-.PHONY : carbonqt_autogen/mocs_compilation.o
-
-# target to build an object file
-carbonqt_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_autogen/mocs_compilation.cpp.o
-.PHONY : carbonqt_autogen/mocs_compilation.cpp.o
-
-carbonqt_autogen/mocs_compilation.i: carbonqt_autogen/mocs_compilation.cpp.i
-.PHONY : carbonqt_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-carbonqt_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_autogen/mocs_compilation.cpp.i
-.PHONY : carbonqt_autogen/mocs_compilation.cpp.i
-
-carbonqt_autogen/mocs_compilation.s: carbonqt_autogen/mocs_compilation.cpp.s
-.PHONY : carbonqt_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-carbonqt_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_autogen/mocs_compilation.cpp.s
-.PHONY : carbonqt_autogen/mocs_compilation.cpp.s
-
 carbonqt_cli.o: carbonqt_cli.cpp.o
 .PHONY : carbonqt_cli.o
 
 # target to build an object file
 carbonqt_cli.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_cli.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.o
 .PHONY : carbonqt_cli.cpp.o
 
 carbonqt_cli.i: carbonqt_cli.cpp.i
@@ -956,7 +932,7 @@ carbonqt_cli.i: carbonqt_cli.cpp.i
 
 # target to preprocess a source file
 carbonqt_cli.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_cli.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.i
 .PHONY : carbonqt_cli.cpp.i
 
 carbonqt_cli.s: carbonqt_cli.cpp.s
@@ -964,8 +940,32 @@ carbonqt_cli.s: carbonqt_cli.cpp.s
 
 # target to generate assembly for a file
 carbonqt_cli.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqt.dir/build.make CMakeFiles/carbonqt.dir/carbonqt_cli.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqt_cli.cpp.s
 .PHONY : carbonqt_cli.cpp.s
+
+carbonqtapp_autogen/mocs_compilation.o: carbonqtapp_autogen/mocs_compilation.cpp.o
+.PHONY : carbonqtapp_autogen/mocs_compilation.o
+
+# target to build an object file
+carbonqtapp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.o
+.PHONY : carbonqtapp_autogen/mocs_compilation.cpp.o
+
+carbonqtapp_autogen/mocs_compilation.i: carbonqtapp_autogen/mocs_compilation.cpp.i
+.PHONY : carbonqtapp_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+carbonqtapp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.i
+.PHONY : carbonqtapp_autogen/mocs_compilation.cpp.i
+
+carbonqtapp_autogen/mocs_compilation.s: carbonqtapp_autogen/mocs_compilation.cpp.s
+.PHONY : carbonqtapp_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+carbonqtapp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/carbonqtapp.dir/build.make CMakeFiles/carbonqtapp.dir/carbonqtapp_autogen/mocs_compilation.cpp.s
+.PHONY : carbonqtapp_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -1085,12 +1085,12 @@ help:
 	@echo "... appMyApp_qmllint_json"
 	@echo "... appMyApp_qmllint_module"
 	@echo "... appMyApp_qmltyperegistration"
-	@echo "... carbonqt_autogen"
-	@echo "... carbonqt_autogen_timestamp_deps"
+	@echo "... carbonqtapp_autogen"
+	@echo "... carbonqtapp_autogen_timestamp_deps"
 	@echo "... generate_qmlls_build_ini_file"
 	@echo "... module_appMyApp_aotstats_target"
 	@echo "... appMyApp"
-	@echo "... carbonqt"
+	@echo "... carbonqtapp"
 	@echo "... appMyApp_autogen/mocs_compilation.o"
 	@echo "... appMyApp_autogen/mocs_compilation.i"
 	@echo "... appMyApp_autogen/mocs_compilation.s"
@@ -1157,12 +1157,12 @@ help:
 	@echo "... build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.o"
 	@echo "... build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.i"
 	@echo "... build/Desktop-Debug/.rcc/qmlcache/appMyApp_qmlcache_loader.s"
-	@echo "... carbonqt_autogen/mocs_compilation.o"
-	@echo "... carbonqt_autogen/mocs_compilation.i"
-	@echo "... carbonqt_autogen/mocs_compilation.s"
 	@echo "... carbonqt_cli.o"
 	@echo "... carbonqt_cli.i"
 	@echo "... carbonqt_cli.s"
+	@echo "... carbonqtapp_autogen/mocs_compilation.o"
+	@echo "... carbonqtapp_autogen/mocs_compilation.i"
+	@echo "... carbonqtapp_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,5 +1,5 @@
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/appMyApp.dir
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqt.dir
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqtapp.dir
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/appMyApp_qmltyperegistration.dir
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/all_qmltyperegistrations.dir
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/appMyApp_other_files.dir
@@ -18,5 +18,5 @@
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/appMyApp_autogen_timestamp_deps.dir
 /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/appMyApp_autogen.dir
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqt_autogen_timestamp_deps.dir
-/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqt_autogen.dir
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqtapp_autogen_timestamp_deps.dir
+/home/kevinsg/Downloads/CarbonQT/CarbonQT-main/build/Desktop-Debug/CMakeFiles/carbonqtapp_autogen.dir

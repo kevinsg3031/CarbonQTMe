@@ -24,7 +24,7 @@ EnergyController::EnergyController(QObject *parent)
             logger,
             cpuPercent,
             ramUsedMB,
-            1.0
+            3.0
         );
 
         emit dataChanged();

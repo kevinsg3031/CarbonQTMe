@@ -24,6 +24,37 @@ struct ProcessInfo {
     double carbon;
 };
 
+void helpCommand() {
+    std::cout << "CarbonQt CLI - Available Commands\n\n";
+
+    std::cout << std::left
+              << std::setw(15) << "Command"
+              << "Description\n";
+
+    std::cout << std::string(50, '-') << "\n";
+
+    std::cout << std::setw(15) << "gui"
+              << "Launch CarbonQt GUI application\n";
+
+    std::cout << std::setw(15) << "status"
+              << "Check if CLI is running\n";
+
+    std::cout << std::setw(15) << "run <sec>"
+              << "Run monitor for given seconds\n";
+
+    std::cout << std::setw(15) << "top"
+              << "Show top carbon-consuming processes\n";
+
+    std::cout << std::setw(15) << "watch"
+              << "Live process monitoring (real-time)\n";
+
+    std::cout << std::setw(15) << "filter <name>"
+              << "Filter processes by name\n";
+
+    std::cout << std::setw(15) << "summary"
+              << "Show system-wide carbon summary\n";
+}
+
 void printTable(const std::vector<ProcessInfo>& processes) {
     std::cout << std::left
               << std::setw(8) << "PID"
@@ -196,13 +227,17 @@ void guiCommand() {
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        std::cout << "Usage: carbonqt <gui|status|run|top|watch|filter|summary>\n";
+        std::cout << "No command provided.\n";
+        std::cout << "Use 'carbonqtapp help' to see available commands.\n";
         return 1;
     }
 
     std::string cmd = argv[1];
 
-    if (cmd == "run") {
+    if (cmd == "help") {
+        helpCommand();
+    }
+    else if (cmd == "run") {
         if (argc < 3) {
             std::cerr << "Provide duration (seconds)\n";
             return 1;

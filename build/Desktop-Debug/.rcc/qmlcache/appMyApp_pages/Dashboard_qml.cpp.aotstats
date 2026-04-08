@@ -26,7 +26,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "spacing",
-                            "line": 24,
+                            "line": 22,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 22,
+                            "line": 20,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "margins",
-                            "line": 23,
+                            "line": 21,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 34,
+                            "line": 37,
                             "message": ""
                         },
                         {
@@ -58,87 +58,151 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 43,
+                            "line": 45,
                             "message": "Cannot access value for name backend"
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "tips",
+                            "line": 57,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTriggered",
+                            "line": 69,
+                            "message": "Cannot load property tipIndex from (component in /home/kevinsg/Downloads/CarbonQT/CarbonQT-main/pages/Dashboard.qml)::parent with type QObject."
+                        },
+                        {
                             "codegenResult": 0,
-                            "column": 31,
+                            "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 57,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "value",
-                            "line": 64,
-                            "message": "Cannot access value for name backend"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 39,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 62,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "value",
-                            "line": 75,
-                            "message": "Cannot access value for name backend"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 39,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
                             "line": 73,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "value",
-                            "line": 86,
-                            "message": "Cannot access value for name processModel"
-                        },
-                        {
                             "codegenResult": 0,
-                            "column": 39,
+                            "column": 32,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 84,
+                            "functionName": "width",
+                            "line": 86,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 28,
+                            "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "value",
-                            "line": 97,
-                            "message": "Cannot access value for name processModel"
+                            "functionName": "text",
+                            "line": 87,
+                            "message": "Cannot load property tips from QQuickItem::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 39,
+                            "column": 35,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
+                            "functionName": "wrapMode",
+                            "line": 88,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "watchIndex",
+                            "line": 98,
+                            "message": "Cannot load property tipIndex from QQuickItem::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "onWatchIndexChanged",
+                            "line": 99,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 75,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
                             "line": 95,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 20,
+                            "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 107,
+                            "functionName": "fill",
+                            "line": 117,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 126,
+                            "message": "Cannot access value for name backend"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 124,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 138,
+                            "message": "Cannot access value for name backend"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 150,
+                            "message": "Cannot access value for name processModel"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 148,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 162,
+                            "message": "Cannot access value for name processModel"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 160,
                             "message": ""
                         },
                         {
@@ -146,7 +210,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 114,
+                            "line": 178,
                             "message": ""
                         },
                         {
@@ -154,7 +218,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 123,
+                            "line": 186,
                             "message": "Cannot load property text from const QMetaObject."
                         },
                         {
@@ -162,7 +226,15 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 128,
+                            "line": 191,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 192,
                             "message": ""
                         },
                         {
@@ -170,7 +242,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "contentWidth",
-                            "line": 132,
+                            "line": 194,
                             "message": ""
                         },
                         {
@@ -178,7 +250,15 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "contentHeight",
-                            "line": 133,
+                            "line": 195,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 199,
                             "message": ""
                         },
                         {
@@ -186,7 +266,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 138,
+                            "line": 200,
                             "message": "Cannot access value for name processModel"
                         },
                         {
@@ -194,7 +274,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "pids",
-                            "line": 140,
+                            "line": 201,
                             "message": "Cannot access value for name processModel"
                         },
                         {
@@ -202,7 +282,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "threads",
-                            "line": 141,
+                            "line": 202,
                             "message": "Cannot access value for name processModel"
                         },
                         {
@@ -210,7 +290,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "names",
-                            "line": 142,
+                            "line": 203,
                             "message": "Cannot access value for name processModel"
                         }
                     ],
